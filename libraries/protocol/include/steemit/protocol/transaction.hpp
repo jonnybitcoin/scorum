@@ -5,7 +5,7 @@
 
 #include <numeric>
 
-namespace steemit { namespace protocol {
+namespace scorum { namespace protocol {
 
    struct transaction
    {
@@ -115,8 +115,8 @@ namespace steemit { namespace protocol {
 
    /// @} transactions group
 
-} } // steemit::protocol
+} } // scorum::protocol
 
-FC_REFLECT( steemit::protocol::transaction, (ref_block_num)(ref_block_prefix)(expiration)(operations)(extensions) )
-FC_REFLECT_DERIVED( steemit::protocol::signed_transaction, (steemit::protocol::transaction), (signatures) )
-FC_REFLECT_DERIVED( steemit::protocol::annotated_signed_transaction, (steemit::protocol::signed_transaction), (transaction_id)(block_num)(transaction_num) );
+FC_REFLECT( scorum::protocol::transaction, (ref_block_num)(ref_block_prefix)(expiration)(operations)(extensions) )
+FC_REFLECT_DERIVED( scorum::protocol::signed_transaction, (scorum::protocol::transaction), (signatures) )
+FC_REFLECT_DERIVED( scorum::protocol::annotated_signed_transaction, (scorum::protocol::signed_transaction), (transaction_id)(block_num)(transaction_num) );

@@ -12,9 +12,9 @@
 
 #include <iostream>
 
-using namespace steemit;
-using namespace steemit::chain;
-using namespace steemit::protocol;
+using namespace scorum;
+using namespace scorum::chain;
+using namespace scorum::protocol;
 
 #ifndef IS_TEST_NET
 

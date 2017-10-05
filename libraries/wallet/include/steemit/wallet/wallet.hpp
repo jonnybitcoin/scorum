@@ -10,15 +10,15 @@
 #include <fc/real128.hpp>
 #include <fc/crypto/base58.hpp>
 
-using namespace steemit::app;
-using namespace steemit::chain;
+using namespace scorum::app;
+using namespace scorum::chain;
 using namespace graphene::utilities;
 using namespace std;
 
-namespace steemit { namespace wallet {
+namespace scorum { namespace wallet {
 
-using steemit::app::discussion;
-using namespace steemit::private_message;
+using scorum::app::discussion;
+using namespace scorum::private_message;
 
 typedef uint16_t transaction_handle_type;
 
@@ -983,20 +983,20 @@ struct plain_keys {
 
 } }
 
-FC_REFLECT( steemit::wallet::wallet_data,
+FC_REFLECT( scorum::wallet::wallet_data,
             (cipher_keys)
             (ws_server)
             (ws_user)
             (ws_password)
           )
 
-FC_REFLECT( steemit::wallet::brain_key_info, (brain_priv_key)(wif_priv_key) (pub_key))
+FC_REFLECT( scorum::wallet::brain_key_info, (brain_priv_key)(wif_priv_key) (pub_key))
 
-FC_REFLECT( steemit::wallet::plain_keys, (checksum)(keys) )
+FC_REFLECT( scorum::wallet::plain_keys, (checksum)(keys) )
 
-FC_REFLECT_ENUM( steemit::wallet::authority_type, (owner)(active)(posting) )
+FC_REFLECT_ENUM( scorum::wallet::authority_type, (owner)(active)(posting) )
 
-FC_API( steemit::wallet::wallet_api,
+FC_API( scorum::wallet::wallet_api,
         /// wallet api
         (help)(gethelp)
         (about)(is_new)(is_locked)(lock)(unlock)(set_password)
@@ -1090,4 +1090,4 @@ FC_API( steemit::wallet::wallet_api,
         (get_transaction)
       )
 
-FC_REFLECT( steemit::wallet::memo_data, (from)(to)(nonce)(check)(encrypted) )
+FC_REFLECT( scorum::wallet::memo_data, (from)(to)(nonce)(check)(encrypted) )

@@ -25,10 +25,10 @@
 #include <memory>
 #include <vector>
 
-namespace steemit { namespace app {
+namespace scorum { namespace app {
 
-using namespace steemit::chain;
-using namespace steemit::protocol;
+using namespace scorum::chain;
+using namespace scorum::protocol;
 using namespace std;
 
 struct order
@@ -108,7 +108,7 @@ struct discussion_query {
 class database_api
 {
    public:
-      database_api(const steemit::app::api_context& ctx);
+      database_api(const scorum::app::api_context& ctx);
       ~database_api();
 
       ///////////////////
@@ -437,17 +437,17 @@ class database_api
 
 } }
 
-FC_REFLECT( steemit::app::order, (order_price)(real_price)(steem)(sbd)(created) );
-FC_REFLECT( steemit::app::order_book, (asks)(bids) );
-FC_REFLECT( steemit::app::scheduled_hardfork, (hf_version)(live_time) );
-FC_REFLECT( steemit::app::liquidity_balance, (account)(weight) );
-FC_REFLECT( steemit::app::withdraw_route, (from_account)(to_account)(percent)(auto_vest) );
+FC_REFLECT( scorum::app::order, (order_price)(real_price)(steem)(sbd)(created) );
+FC_REFLECT( scorum::app::order_book, (asks)(bids) );
+FC_REFLECT( scorum::app::scheduled_hardfork, (hf_version)(live_time) );
+FC_REFLECT( scorum::app::liquidity_balance, (account)(weight) );
+FC_REFLECT( scorum::app::withdraw_route, (from_account)(to_account)(percent)(auto_vest) );
 
-FC_REFLECT( steemit::app::discussion_query, (tag)(filter_tags)(select_tags)(select_authors)(truncate_body)(start_author)(start_permlink)(parent_author)(parent_permlink)(limit) );
+FC_REFLECT( scorum::app::discussion_query, (tag)(filter_tags)(select_tags)(select_authors)(truncate_body)(start_author)(start_permlink)(parent_author)(parent_permlink)(limit) );
 
-FC_REFLECT_ENUM( steemit::app::withdraw_route_type, (incoming)(outgoing)(all) );
+FC_REFLECT_ENUM( scorum::app::withdraw_route_type, (incoming)(outgoing)(all) );
 
-FC_API(steemit::app::database_api,
+FC_API(scorum::app::database_api,
    // Subscriptions
    (set_block_applied_callback)
 

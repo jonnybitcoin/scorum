@@ -2,10 +2,10 @@
 
 #include <steemit/protocol/asset.hpp>
 
-namespace steemit { namespace chain { namespace util {
+namespace scorum { namespace chain { namespace util {
 
-using steemit::protocol::asset;
-using steemit::protocol::price;
+using scorum::protocol::asset;
+using scorum::protocol::price;
 
 inline asset to_sbd( const price& p, const asset& steem )
 {

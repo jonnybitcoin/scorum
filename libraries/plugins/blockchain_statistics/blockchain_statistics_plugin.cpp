@@ -9,12 +9,12 @@
 #include <steemit/chain/index.hpp>
 #include <steemit/chain/operation_notification.hpp>
 
-namespace steemit { namespace blockchain_statistics {
+namespace scorum { namespace blockchain_statistics {
 
 namespace detail
 {
 
-using namespace steemit::protocol;
+using namespace scorum::protocol;
 
 class blockchain_statistics_plugin_impl
 {
@@ -441,6 +441,6 @@ uint32_t blockchain_statistics_plugin::get_max_history_per_bucket() const
    return _my->_maximum_history_per_bucket_size;
 }
 
-} } // steemit::blockchain_statistics
+} } // scorum::blockchain_statistics
 
-STEEMIT_DEFINE_PLUGIN( blockchain_statistics, steemit::blockchain_statistics::blockchain_statistics_plugin );
+STEEMIT_DEFINE_PLUGIN( blockchain_statistics, scorum::blockchain_statistics::blockchain_statistics_plugin );

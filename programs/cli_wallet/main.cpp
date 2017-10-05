@@ -59,9 +59,9 @@
 
 
 using namespace graphene::utilities;
-using namespace steemit::app;
-using namespace steemit::chain;
-using namespace steemit::wallet;
+using namespace scorum::app;
+using namespace scorum::chain;
+using namespace scorum::wallet;
 using namespace std;
 namespace bpo = boost::program_options;
 

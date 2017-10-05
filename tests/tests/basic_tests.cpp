@@ -36,9 +36,9 @@
 #include <algorithm>
 #include <random>
 
-using namespace steemit;
-using namespace steemit::chain;
-using namespace steemit::protocol;
+using namespace scorum;
+using namespace scorum::chain;
+using namespace scorum::protocol;
 
 BOOST_FIXTURE_TEST_SUITE( basic_tests, clean_database_fixture )
 

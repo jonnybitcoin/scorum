@@ -3,7 +3,7 @@
 
 #include <locale>
 
-namespace steemit { namespace protocol {
+namespace scorum { namespace protocol {
 
    bool inline is_asset_type( asset asset, asset_symbol_type symbol )
    {
@@ -388,4 +388,4 @@ namespace steemit { namespace protocol {
       FC_ASSERT( vesting_shares >= asset( 0, VESTS_SYMBOL ), "Delegation cannot be negative" );
    }
 
-} } // steemit::protocol
+} } // scorum::protocol

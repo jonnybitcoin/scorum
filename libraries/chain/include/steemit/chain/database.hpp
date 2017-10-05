@@ -18,14 +18,14 @@
 
 #include <map>
 
-namespace steemit { namespace chain {
+namespace scorum { namespace chain {
 
-   using steemit::protocol::signed_transaction;
-   using steemit::protocol::operation;
-   using steemit::protocol::authority;
-   using steemit::protocol::asset;
-   using steemit::protocol::asset_symbol_type;
-   using steemit::protocol::price;
+   using scorum::protocol::signed_transaction;
+   using scorum::protocol::operation;
+   using scorum::protocol::authority;
+   using scorum::protocol::asset;
+   using scorum::protocol::asset_symbol_type;
+   using scorum::protocol::price;
 
    class database_impl;
    class custom_operation_interpreter;

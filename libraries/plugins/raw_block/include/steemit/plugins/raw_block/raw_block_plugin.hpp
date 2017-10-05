@@ -3,11 +3,11 @@
 
 #include <steemit/app/plugin.hpp>
 
-namespace steemit { namespace plugin { namespace raw_block {
+namespace scorum { namespace plugin { namespace raw_block {
 
-using steemit::app::application;
+using scorum::app::application;
 
-class raw_block_plugin : public steemit::app::plugin
+class raw_block_plugin : public scorum::app::plugin
 {
    public:
       raw_block_plugin( application* app );

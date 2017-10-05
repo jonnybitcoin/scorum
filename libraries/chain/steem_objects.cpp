@@ -3,6 +3,6 @@
 
 #include <fc/uint128.hpp>
 
-namespace steemit { namespace chain {
+namespace scorum { namespace chain {
 
-} } // steemit::chain
+} } // scorum::chain

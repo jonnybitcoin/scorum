@@ -34,7 +34,7 @@
 #include <fstream>
 #include <functional>
 
-namespace steemit { namespace chain {
+namespace scorum { namespace chain {
 
 //namespace db2 = graphene::db2;
 
@@ -60,11 +60,11 @@ struct db_schema
 
 } }
 
-FC_REFLECT( steemit::chain::object_schema_repr, (space_type)(type) )
-FC_REFLECT( steemit::chain::operation_schema_repr, (id)(type) )
-FC_REFLECT( steemit::chain::db_schema, (types)(object_types)(operation_type)(custom_operation_types) )
+FC_REFLECT( scorum::chain::object_schema_repr, (space_type)(type) )
+FC_REFLECT( scorum::chain::operation_schema_repr, (id)(type) )
+FC_REFLECT( scorum::chain::db_schema, (types)(object_types)(operation_type)(custom_operation_types) )
 
-namespace steemit { namespace chain {
+namespace scorum { namespace chain {
 
 using boost::container::flat_set;
 
@@ -3717,4 +3717,4 @@ void database::retally_witness_vote_counts( bool force )
    }
 }
 
-} } //steemit::chain
+} } //scorum::chain

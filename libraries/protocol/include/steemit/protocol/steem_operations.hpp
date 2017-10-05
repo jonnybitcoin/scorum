@@ -6,7 +6,7 @@
 #include <fc/utf8.hpp>
 #include <fc/crypto/equihash.hpp>
 
-namespace steemit { namespace protocol {
+namespace scorum { namespace protocol {
 
    inline void validate_account_name( const string& name )
    {
@@ -790,19 +790,19 @@ namespace steemit { namespace protocol {
       void get_required_active_authorities( flat_set< account_name_type >& a ) const { a.insert( delegator ); }
       void validate() const;
    };
-} } // steemit::protocol
+} } // scorum::protocol
 
 
-FC_REFLECT( steemit::protocol::transfer_to_savings_operation, (from)(to)(amount)(memo) )
-FC_REFLECT( steemit::protocol::transfer_from_savings_operation, (from)(request_id)(to)(amount)(memo) )
-FC_REFLECT( steemit::protocol::cancel_transfer_from_savings_operation, (from)(request_id) )
+FC_REFLECT( scorum::protocol::transfer_to_savings_operation, (from)(to)(amount)(memo) )
+FC_REFLECT( scorum::protocol::transfer_from_savings_operation, (from)(request_id)(to)(amount)(memo) )
+FC_REFLECT( scorum::protocol::cancel_transfer_from_savings_operation, (from)(request_id) )
 
-FC_REFLECT( steemit::protocol::convert_operation, (owner)(requestid)(amount) )
-FC_REFLECT( steemit::protocol::feed_publish_operation, (publisher)(exchange_rate) )
+FC_REFLECT( scorum::protocol::convert_operation, (owner)(requestid)(amount) )
+FC_REFLECT( scorum::protocol::feed_publish_operation, (publisher)(exchange_rate) )
 
-FC_REFLECT( steemit::protocol::chain_properties, (account_creation_fee)(maximum_block_size)(sbd_interest_rate) );
+FC_REFLECT( scorum::protocol::chain_properties, (account_creation_fee)(maximum_block_size)(sbd_interest_rate) );
 
-FC_REFLECT( steemit::protocol::account_create_operation,
+FC_REFLECT( scorum::protocol::account_create_operation,
             (fee)
             (creator)
             (new_account_name)
@@ -812,7 +812,7 @@ FC_REFLECT( steemit::protocol::account_create_operation,
             (memo_key)
             (json_metadata) )
 
-FC_REFLECT( steemit::protocol::account_create_with_delegation_operation,
+FC_REFLECT( scorum::protocol::account_create_with_delegation_operation,
             (fee)
             (delegation)
             (creator)
@@ -824,7 +824,7 @@ FC_REFLECT( steemit::protocol::account_create_with_delegation_operation,
             (json_metadata)
             (extensions) )
 
-FC_REFLECT( steemit::protocol::account_update_operation,
+FC_REFLECT( scorum::protocol::account_update_operation,
             (account)
             (owner)
             (active)
@@ -832,37 +832,37 @@ FC_REFLECT( steemit::protocol::account_update_operation,
             (memo_key)
             (json_metadata) )
 
-FC_REFLECT( steemit::protocol::transfer_operation, (from)(to)(amount)(memo) )
-FC_REFLECT( steemit::protocol::transfer_to_vesting_operation, (from)(to)(amount) )
-FC_REFLECT( steemit::protocol::withdraw_vesting_operation, (account)(vesting_shares) )
-FC_REFLECT( steemit::protocol::set_withdraw_vesting_route_operation, (from_account)(to_account)(percent)(auto_vest) )
-FC_REFLECT( steemit::protocol::witness_update_operation, (owner)(url)(block_signing_key)(props)(fee) )
-FC_REFLECT( steemit::protocol::account_witness_vote_operation, (account)(witness)(approve) )
-FC_REFLECT( steemit::protocol::account_witness_proxy_operation, (account)(proxy) )
-FC_REFLECT( steemit::protocol::comment_operation, (parent_author)(parent_permlink)(author)(permlink)(title)(body)(json_metadata) )
-FC_REFLECT( steemit::protocol::vote_operation, (voter)(author)(permlink)(weight) )
-FC_REFLECT( steemit::protocol::custom_operation, (required_auths)(id)(data) )
-FC_REFLECT( steemit::protocol::custom_json_operation, (required_auths)(required_posting_auths)(id)(json) )
-FC_REFLECT( steemit::protocol::custom_binary_operation, (required_owner_auths)(required_active_auths)(required_posting_auths)(required_auths)(id)(data) )
-FC_REFLECT( steemit::protocol::limit_order_create_operation, (owner)(orderid)(amount_to_sell)(min_to_receive)(fill_or_kill)(expiration) )
-FC_REFLECT( steemit::protocol::limit_order_create2_operation, (owner)(orderid)(amount_to_sell)(exchange_rate)(fill_or_kill)(expiration) )
-FC_REFLECT( steemit::protocol::limit_order_cancel_operation, (owner)(orderid) )
+FC_REFLECT( scorum::protocol::transfer_operation, (from)(to)(amount)(memo) )
+FC_REFLECT( scorum::protocol::transfer_to_vesting_operation, (from)(to)(amount) )
+FC_REFLECT( scorum::protocol::withdraw_vesting_operation, (account)(vesting_shares) )
+FC_REFLECT( scorum::protocol::set_withdraw_vesting_route_operation, (from_account)(to_account)(percent)(auto_vest) )
+FC_REFLECT( scorum::protocol::witness_update_operation, (owner)(url)(block_signing_key)(props)(fee) )
+FC_REFLECT( scorum::protocol::account_witness_vote_operation, (account)(witness)(approve) )
+FC_REFLECT( scorum::protocol::account_witness_proxy_operation, (account)(proxy) )
+FC_REFLECT( scorum::protocol::comment_operation, (parent_author)(parent_permlink)(author)(permlink)(title)(body)(json_metadata) )
+FC_REFLECT( scorum::protocol::vote_operation, (voter)(author)(permlink)(weight) )
+FC_REFLECT( scorum::protocol::custom_operation, (required_auths)(id)(data) )
+FC_REFLECT( scorum::protocol::custom_json_operation, (required_auths)(required_posting_auths)(id)(json) )
+FC_REFLECT( scorum::protocol::custom_binary_operation, (required_owner_auths)(required_active_auths)(required_posting_auths)(required_auths)(id)(data) )
+FC_REFLECT( scorum::protocol::limit_order_create_operation, (owner)(orderid)(amount_to_sell)(min_to_receive)(fill_or_kill)(expiration) )
+FC_REFLECT( scorum::protocol::limit_order_create2_operation, (owner)(orderid)(amount_to_sell)(exchange_rate)(fill_or_kill)(expiration) )
+FC_REFLECT( scorum::protocol::limit_order_cancel_operation, (owner)(orderid) )
 
-FC_REFLECT( steemit::protocol::delete_comment_operation, (author)(permlink) );
+FC_REFLECT( scorum::protocol::delete_comment_operation, (author)(permlink) );
 
-FC_REFLECT( steemit::protocol::beneficiary_route_type, (account)(weight) )
-FC_REFLECT( steemit::protocol::comment_payout_beneficiaries, (beneficiaries) )
-FC_REFLECT_TYPENAME( steemit::protocol::comment_options_extension )
-FC_REFLECT( steemit::protocol::comment_options_operation, (author)(permlink)(max_accepted_payout)(percent_steem_dollars)(allow_votes)(allow_curation_rewards)(extensions) )
+FC_REFLECT( scorum::protocol::beneficiary_route_type, (account)(weight) )
+FC_REFLECT( scorum::protocol::comment_payout_beneficiaries, (beneficiaries) )
+FC_REFLECT_TYPENAME( scorum::protocol::comment_options_extension )
+FC_REFLECT( scorum::protocol::comment_options_operation, (author)(permlink)(max_accepted_payout)(percent_steem_dollars)(allow_votes)(allow_curation_rewards)(extensions) )
 
-FC_REFLECT( steemit::protocol::escrow_transfer_operation, (from)(to)(sbd_amount)(steem_amount)(escrow_id)(agent)(fee)(json_meta)(ratification_deadline)(escrow_expiration) );
-FC_REFLECT( steemit::protocol::escrow_approve_operation, (from)(to)(agent)(who)(escrow_id)(approve) );
-FC_REFLECT( steemit::protocol::escrow_dispute_operation, (from)(to)(agent)(who)(escrow_id) );
-FC_REFLECT( steemit::protocol::escrow_release_operation, (from)(to)(agent)(who)(receiver)(escrow_id)(sbd_amount)(steem_amount) );
-FC_REFLECT( steemit::protocol::prove_authority_operation, (challenged)(require_owner) );
-FC_REFLECT( steemit::protocol::request_account_recovery_operation, (recovery_account)(account_to_recover)(new_owner_authority)(extensions) );
-FC_REFLECT( steemit::protocol::recover_account_operation, (account_to_recover)(new_owner_authority)(recent_owner_authority)(extensions) );
-FC_REFLECT( steemit::protocol::change_recovery_account_operation, (account_to_recover)(new_recovery_account)(extensions) );
-FC_REFLECT( steemit::protocol::decline_voting_rights_operation, (account)(decline) );
-FC_REFLECT( steemit::protocol::claim_reward_balance_operation, (account)(reward_steem)(reward_sbd)(reward_vests) )
-FC_REFLECT( steemit::protocol::delegate_vesting_shares_operation, (delegator)(delegatee)(vesting_shares) );
+FC_REFLECT( scorum::protocol::escrow_transfer_operation, (from)(to)(sbd_amount)(steem_amount)(escrow_id)(agent)(fee)(json_meta)(ratification_deadline)(escrow_expiration) );
+FC_REFLECT( scorum::protocol::escrow_approve_operation, (from)(to)(agent)(who)(escrow_id)(approve) );
+FC_REFLECT( scorum::protocol::escrow_dispute_operation, (from)(to)(agent)(who)(escrow_id) );
+FC_REFLECT( scorum::protocol::escrow_release_operation, (from)(to)(agent)(who)(receiver)(escrow_id)(sbd_amount)(steem_amount) );
+FC_REFLECT( scorum::protocol::prove_authority_operation, (challenged)(require_owner) );
+FC_REFLECT( scorum::protocol::request_account_recovery_operation, (recovery_account)(account_to_recover)(new_owner_authority)(extensions) );
+FC_REFLECT( scorum::protocol::recover_account_operation, (account_to_recover)(new_owner_authority)(recent_owner_authority)(extensions) );
+FC_REFLECT( scorum::protocol::change_recovery_account_operation, (account_to_recover)(new_recovery_account)(extensions) );
+FC_REFLECT( scorum::protocol::decline_voting_rights_operation, (account)(decline) );
+FC_REFLECT( scorum::protocol::claim_reward_balance_operation, (account)(reward_steem)(reward_sbd)(reward_vests) )
+FC_REFLECT( scorum::protocol::delegate_vesting_shares_operation, (delegator)(delegatee)(vesting_shares) );
