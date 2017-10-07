@@ -1,7 +1,7 @@
 #pragma once
 #include <scorum/protocol/transaction.hpp>
 
-#include <steemit/chain/steem_object_types.hpp>
+#include <scorum/chain/steem_object_types.hpp>
 
 #include <boost/multi_index/hashed_index.hpp>
 

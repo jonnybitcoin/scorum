@@ -3,8 +3,8 @@
 
 #include <graphene/utilities/tempdir.hpp>
 
-#include <steemit/chain/steem_objects.hpp>
-#include <steemit/chain/history_object.hpp>
+#include <scorum/chain/steem_objects.hpp>
+#include <scorum/chain/history_object.hpp>
 #include <steemit/account_history/account_history_plugin.hpp>
 #include <steemit/witness/witness_plugin.hpp>
 

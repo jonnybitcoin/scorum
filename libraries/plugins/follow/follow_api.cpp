@@ -1,4 +1,4 @@
-#include <steemit/chain/account_object.hpp>
+#include <scorum/chain/account_object.hpp>
 
 #include <steemit/follow/follow_api.hpp>
 

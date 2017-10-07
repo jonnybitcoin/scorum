@@ -1,6 +1,6 @@
 #pragma once
 
-#include <steemit/chain/evaluator.hpp>
+#include <scorum/chain/evaluator.hpp>
 
 #include <steemit/private_message/private_message_operations.hpp>
 #include <steemit/private_message/private_message_plugin.hpp>

@@ -1,5 +1,5 @@
 
-#include <steemit/chain/steem_objects.hpp>
+#include <scorum/chain/steem_objects.hpp>
 
 #include <fc/uint128.hpp>
 

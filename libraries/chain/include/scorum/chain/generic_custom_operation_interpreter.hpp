@@ -4,9 +4,9 @@
 #include <scorum/protocol/steem_operations.hpp>
 #include <scorum/protocol/operation_util_impl.hpp>
 
-#include <steemit/chain/evaluator.hpp>
-#include <steemit/chain/evaluator_registry.hpp>
-#include <steemit/chain/custom_operation_interpreter.hpp>
+#include <scorum/chain/evaluator.hpp>
+#include <scorum/chain/evaluator_registry.hpp>
+#include <scorum/chain/custom_operation_interpreter.hpp>
 
 #include <graphene/schema/schema.hpp>
 

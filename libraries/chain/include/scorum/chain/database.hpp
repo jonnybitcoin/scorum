@@ -2,12 +2,12 @@
  * Copyright (c) 2015 Cryptonomex, Inc., and contributors.
  */
 #pragma once
-#include <steemit/chain/global_property_object.hpp>
+#include <scorum/chain/global_property_object.hpp>
 #include <steemit/chain/hardfork.hpp>
-#include <steemit/chain/node_property_object.hpp>
-#include <steemit/chain/fork_database.hpp>
-#include <steemit/chain/block_log.hpp>
-#include <steemit/chain/operation_notification.hpp>
+#include <scorum/chain/node_property_object.hpp>
+#include <scorum/chain/fork_database.hpp>
+#include <scorum/chain/block_log.hpp>
+#include <scorum/chain/operation_notification.hpp>
 
 #include <scorum/protocol/protocol.hpp>
 

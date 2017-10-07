@@ -25,8 +25,8 @@
 
 #include <scorum/app/application.hpp>
 
-#include <steemit/chain/evaluator.hpp>
-#include <steemit/chain/database.hpp>
+#include <scorum/chain/evaluator.hpp>
+#include <scorum/chain/database.hpp>
 
 #include <boost/program_options.hpp>
 

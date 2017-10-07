@@ -30,9 +30,9 @@
 
 #include <scorum/protocol/config.hpp>
 
-#include <steemit/chain/database.hpp>
-#include <steemit/chain/index.hpp>
-#include <steemit/chain/generic_custom_operation_interpreter.hpp>
+#include <scorum/chain/database.hpp>
+#include <scorum/chain/index.hpp>
+#include <scorum/chain/generic_custom_operation_interpreter.hpp>
 
 #include <fc/smart_ref_impl.hpp>
 #include <fc/thread/thread.hpp>

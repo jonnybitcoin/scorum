@@ -1,7 +1,7 @@
 #include <steemit/witness/witness_operations.hpp>
 #include <steemit/witness/witness_objects.hpp>
 
-#include <steemit/chain/comment_object.hpp>
+#include <scorum/chain/comment_object.hpp>
 
 namespace scorum { namespace witness {
 

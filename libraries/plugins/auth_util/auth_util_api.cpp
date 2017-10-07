@@ -5,8 +5,8 @@
 #include <scorum/protocol/authority.hpp>
 #include <scorum/protocol/sign_state.hpp>
 
-#include <steemit/chain/account_object.hpp>
-#include <steemit/chain/database.hpp>
+#include <scorum/chain/account_object.hpp>
+#include <scorum/chain/database.hpp>
 
 #include <steemit/plugins/auth_util/auth_util_api.hpp>
 #include <steemit/plugins/auth_util/auth_util_plugin.hpp>

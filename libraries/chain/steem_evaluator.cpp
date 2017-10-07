@@ -1,11 +1,11 @@
-#include <steemit/chain/steem_evaluator.hpp>
-#include <steemit/chain/database.hpp>
-#include <steemit/chain/custom_operation_interpreter.hpp>
-#include <steemit/chain/steem_objects.hpp>
-#include <steemit/chain/witness_objects.hpp>
-#include <steemit/chain/block_summary_object.hpp>
+#include <scorum/chain/steem_evaluator.hpp>
+#include <scorum/chain/database.hpp>
+#include <scorum/chain/custom_operation_interpreter.hpp>
+#include <scorum/chain/steem_objects.hpp>
+#include <scorum/chain/witness_objects.hpp>
+#include <scorum/chain/block_summary_object.hpp>
 
-#include <steemit/chain/util/reward.hpp>
+#include <scorum/chain/util/reward.hpp>
 
 #ifndef IS_LOW_MEM
 #include <diff_match_patch.h>

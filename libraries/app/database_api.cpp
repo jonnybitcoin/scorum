@@ -4,7 +4,7 @@
 
 #include <scorum/protocol/get_config.hpp>
 
-#include <steemit/chain/util/reward.hpp>
+#include <scorum/chain/util/reward.hpp>
 
 #include <fc/bloom_filter.hpp>
 #include <fc/smart_ref_impl.hpp>

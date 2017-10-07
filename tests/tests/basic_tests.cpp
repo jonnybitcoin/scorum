@@ -24,7 +24,7 @@
 
 #include <boost/test/unit_test.hpp>
 
-#include <steemit/chain/database.hpp>
+#include <scorum/chain/database.hpp>
 #include <scorum/protocol/protocol.hpp>
 
 #include <scorum/protocol/steem_operations.hpp>

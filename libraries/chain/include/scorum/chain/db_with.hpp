@@ -1,6 +1,6 @@
 #pragma once
 
-#include <steemit/chain/database.hpp>
+#include <scorum/chain/database.hpp>
 
 /*
  * This file provides with() functions which modify the database

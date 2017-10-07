@@ -4,12 +4,12 @@
 
 #include <scorum/protocol/config.hpp>
 
-#include <steemit/chain/database.hpp>
+#include <scorum/chain/database.hpp>
 #include <steemit/chain/hardfork.hpp>
-#include <steemit/chain/index.hpp>
-#include <steemit/chain/operation_notification.hpp>
-#include <steemit/chain/account_object.hpp>
-#include <steemit/chain/comment_object.hpp>
+#include <scorum/chain/index.hpp>
+#include <scorum/chain/operation_notification.hpp>
+#include <scorum/chain/account_object.hpp>
+#include <scorum/chain/comment_object.hpp>
 
 #include <fc/smart_ref_impl.hpp>
 #include <fc/thread/thread.hpp>

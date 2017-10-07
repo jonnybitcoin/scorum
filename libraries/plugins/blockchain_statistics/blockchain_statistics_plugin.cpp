@@ -1,13 +1,13 @@
 #include <steemit/blockchain_statistics/blockchain_statistics_api.hpp>
 
 #include <scorum/app/impacted.hpp>
-#include <steemit/chain/account_object.hpp>
-#include <steemit/chain/comment_object.hpp>
-#include <steemit/chain/history_object.hpp>
+#include <scorum/chain/account_object.hpp>
+#include <scorum/chain/comment_object.hpp>
+#include <scorum/chain/history_object.hpp>
 
-#include <steemit/chain/database.hpp>
-#include <steemit/chain/index.hpp>
-#include <steemit/chain/operation_notification.hpp>
+#include <scorum/chain/database.hpp>
+#include <scorum/chain/index.hpp>
+#include <scorum/chain/operation_notification.hpp>
 
 namespace scorum { namespace blockchain_statistics {
 

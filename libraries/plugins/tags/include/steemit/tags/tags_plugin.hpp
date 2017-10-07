@@ -1,8 +1,8 @@
 #pragma once
 
 #include <scorum/app/plugin.hpp>
-#include <steemit/chain/database.hpp>
-#include <steemit/chain/comment_object.hpp>
+#include <scorum/chain/database.hpp>
+#include <scorum/chain/comment_object.hpp>
 
 #include <boost/multi_index/composite_key.hpp>
 

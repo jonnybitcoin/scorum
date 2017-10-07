@@ -8,10 +8,10 @@
 
 #include <scorum/protocol/block.hpp>
 
-#include <steemit/chain/block_log.hpp>
-#include <steemit/chain/account_object.hpp>
-#include <steemit/chain/database.hpp>
-#include <steemit/chain/witness_objects.hpp>
+#include <scorum/chain/block_log.hpp>
+#include <scorum/chain/account_object.hpp>
+#include <scorum/chain/database.hpp>
+#include <scorum/chain/witness_objects.hpp>
 
 #include <graphene/utilities/key_conversion.hpp>
 

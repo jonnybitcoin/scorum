@@ -10,7 +10,7 @@
 
 #include <scorum/protocol/block.hpp>
 
-#include <steemit/chain/witness_objects.hpp>
+#include <scorum/chain/witness_objects.hpp>
 
 namespace scorum { namespace app {
    struct api_context;

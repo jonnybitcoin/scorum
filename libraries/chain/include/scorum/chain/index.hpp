@@ -1,6 +1,6 @@
 #pragma once
 
-#include <steemit/chain/database.hpp>
+#include <scorum/chain/database.hpp>
 
 namespace scorum { namespace chain {
 

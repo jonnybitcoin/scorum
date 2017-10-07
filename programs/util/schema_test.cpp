@@ -7,8 +7,8 @@
 #include <string>
 #include <vector>
 
-#include <steemit/chain/account_object.hpp>
-#include <steemit/chain/steem_objects.hpp>
+#include <scorum/chain/account_object.hpp>
+#include <scorum/chain/steem_objects.hpp>
 
 using namespace graphene::db;
 

@@ -1,6 +1,6 @@
 
-#include <steemit/chain/database.hpp>
-#include <steemit/chain/global_property_object.hpp>
+#include <scorum/chain/database.hpp>
+#include <scorum/chain/global_property_object.hpp>
 
 #include <steemit/plugins/block_info/block_info.hpp>
 #include <steemit/plugins/block_info/block_info_api.hpp>

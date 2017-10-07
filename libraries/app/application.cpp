@@ -26,9 +26,9 @@
 #include <scorum/app/application.hpp>
 #include <scorum/app/plugin.hpp>
 
-#include <steemit/chain/steem_objects.hpp>
-#include <steemit/chain/steem_object_types.hpp>
-#include <steemit/chain/database_exceptions.hpp>
+#include <scorum/chain/steem_objects.hpp>
+#include <scorum/chain/steem_object_types.hpp>
+#include <scorum/chain/database_exceptions.hpp>
 
 #include <fc/time.hpp>
 

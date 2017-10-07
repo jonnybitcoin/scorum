@@ -4,9 +4,9 @@
 
 #include <scorum/protocol/config.hpp>
 
-#include <steemit/chain/database.hpp>
-#include <steemit/chain/operation_notification.hpp>
-#include <steemit/chain/history_object.hpp>
+#include <scorum/chain/database.hpp>
+#include <scorum/chain/operation_notification.hpp>
+#include <scorum/chain/history_object.hpp>
 
 #include <fc/smart_ref_impl.hpp>
 #include <fc/thread/thread.hpp>

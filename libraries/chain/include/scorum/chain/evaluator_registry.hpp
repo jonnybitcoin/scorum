@@ -1,6 +1,6 @@
 #pragma once
 
-#include <steemit/chain/evaluator.hpp>
+#include <scorum/chain/evaluator.hpp>
 
 namespace scorum { namespace chain {
 

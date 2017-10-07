@@ -2,9 +2,9 @@
 
 #include <scorum/protocol/exceptions.hpp>
 
-#include <steemit/chain/database.hpp>
+#include <scorum/chain/database.hpp>
 #include <steemit/chain/hardfork.hpp>
-#include <steemit/chain/steem_objects.hpp>
+#include <scorum/chain/steem_objects.hpp>
 
 #include <fc/crypto/digest.hpp>
 

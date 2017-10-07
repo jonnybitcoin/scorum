@@ -2,10 +2,10 @@
 #include <scorum/app/applied_operation.hpp>
 #include <scorum/app/state.hpp>
 
-#include <steemit/chain/database.hpp>
-#include <steemit/chain/steem_objects.hpp>
-#include <steemit/chain/steem_object_types.hpp>
-#include <steemit/chain/history_object.hpp>
+#include <scorum/chain/database.hpp>
+#include <scorum/chain/steem_objects.hpp>
+#include <scorum/chain/steem_object_types.hpp>
+#include <scorum/chain/history_object.hpp>
 
 #include <steemit/tags/tags_plugin.hpp>
 

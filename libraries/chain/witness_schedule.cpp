@@ -1,7 +1,7 @@
 
-#include <steemit/chain/database.hpp>
-#include <steemit/chain/witness_objects.hpp>
-#include <steemit/chain/witness_schedule.hpp>
+#include <scorum/chain/database.hpp>
+#include <scorum/chain/witness_objects.hpp>
+#include <scorum/chain/witness_schedule.hpp>
 
 #include <scorum/protocol/config.hpp>
 

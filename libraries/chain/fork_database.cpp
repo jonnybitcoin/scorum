@@ -1,6 +1,6 @@
-#include <steemit/chain/fork_database.hpp>
+#include <scorum/chain/fork_database.hpp>
 
-#include <steemit/chain/database_exceptions.hpp>
+#include <scorum/chain/database_exceptions.hpp>
 
 namespace scorum { namespace chain {
 

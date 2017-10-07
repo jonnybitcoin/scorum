@@ -25,12 +25,12 @@
 #include <steemit/witness/witness_objects.hpp>
 #include <steemit/witness/witness_operations.hpp>
 
-#include <steemit/chain/account_object.hpp>
-#include <steemit/chain/database.hpp>
-#include <steemit/chain/database_exceptions.hpp>
-#include <steemit/chain/generic_custom_operation_interpreter.hpp>
-#include <steemit/chain/index.hpp>
-#include <steemit/chain/steem_objects.hpp>
+#include <scorum/chain/account_object.hpp>
+#include <scorum/chain/database.hpp>
+#include <scorum/chain/database_exceptions.hpp>
+#include <scorum/chain/generic_custom_operation_interpreter.hpp>
+#include <scorum/chain/index.hpp>
+#include <scorum/chain/steem_objects.hpp>
 
 #include <fc/time.hpp>
 

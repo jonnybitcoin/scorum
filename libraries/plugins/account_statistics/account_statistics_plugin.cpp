@@ -1,9 +1,9 @@
 #include <steemit/account_statistics/account_statistics_api.hpp>
 
-#include <steemit/chain/account_object.hpp>
-#include <steemit/chain/comment_object.hpp>
+#include <scorum/chain/account_object.hpp>
+#include <scorum/chain/comment_object.hpp>
 
-#include <steemit/chain/database.hpp>
+#include <scorum/chain/database.hpp>
 
 namespace scorum { namespace account_statistics {
 

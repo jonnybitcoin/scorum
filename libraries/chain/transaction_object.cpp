@@ -1,4 +1,4 @@
-#include <steemit/chain/transaction_object.hpp>
+#include <scorum/chain/transaction_object.hpp>
 
 namespace scorum { namespace chain {
 

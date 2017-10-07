@@ -2,7 +2,7 @@
 
 #include <steemit/follow/follow_plugin.hpp>
 
-#include <steemit/chain/steem_object_types.hpp>
+#include <scorum/chain/steem_object_types.hpp>
 
 namespace scorum { namespace follow {
 

@@ -1,5 +1,5 @@
 #pragma once
-#include <steemit/chain/steem_object_types.hpp>
+#include <scorum/chain/steem_object_types.hpp>
 
 namespace scorum { namespace chain {
 

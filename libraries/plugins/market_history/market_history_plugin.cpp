@@ -1,8 +1,8 @@
 #include <steemit/market_history/market_history_api.hpp>
 
-#include <steemit/chain/database.hpp>
-#include <steemit/chain/index.hpp>
-#include <steemit/chain/operation_notification.hpp>
+#include <scorum/chain/database.hpp>
+#include <scorum/chain/index.hpp>
+#include <scorum/chain/operation_notification.hpp>
 
 namespace scorum { namespace market_history {
 

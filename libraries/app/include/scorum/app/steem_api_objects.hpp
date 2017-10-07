@@ -1,12 +1,12 @@
 #pragma once
-#include <steemit/chain/account_object.hpp>
-#include <steemit/chain/block_summary_object.hpp>
-#include <steemit/chain/comment_object.hpp>
-#include <steemit/chain/global_property_object.hpp>
-#include <steemit/chain/history_object.hpp>
-#include <steemit/chain/steem_objects.hpp>
-#include <steemit/chain/transaction_object.hpp>
-#include <steemit/chain/witness_objects.hpp>
+#include <scorum/chain/account_object.hpp>
+#include <scorum/chain/block_summary_object.hpp>
+#include <scorum/chain/comment_object.hpp>
+#include <scorum/chain/global_property_object.hpp>
+#include <scorum/chain/history_object.hpp>
+#include <scorum/chain/steem_objects.hpp>
+#include <scorum/chain/transaction_object.hpp>
+#include <scorum/chain/witness_objects.hpp>
 
 #include <steemit/tags/tags_plugin.hpp>
 

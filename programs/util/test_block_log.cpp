@@ -1,4 +1,4 @@
-#include <steemit/chain/database.hpp>
+#include <scorum/chain/database.hpp>
 #include <scorum/protocol/block.hpp>
 #include <fc/io/raw.hpp>
 

@@ -3,13 +3,13 @@
 
 #include <scorum/protocol/exceptions.hpp>
 
-#include <steemit/chain/block_summary_object.hpp>
-#include <steemit/chain/database.hpp>
+#include <scorum/chain/block_summary_object.hpp>
+#include <scorum/chain/database.hpp>
 #include <steemit/chain/hardfork.hpp>
-#include <steemit/chain/history_object.hpp>
-#include <steemit/chain/steem_objects.hpp>
+#include <scorum/chain/history_object.hpp>
+#include <scorum/chain/steem_objects.hpp>
 
-#include <steemit/chain/util/reward.hpp>
+#include <scorum/chain/util/reward.hpp>
 
 #include <steemit/plugins/debug_node/debug_node_plugin.hpp>
 

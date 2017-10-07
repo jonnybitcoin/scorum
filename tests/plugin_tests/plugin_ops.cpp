@@ -1,7 +1,7 @@
 #ifdef IS_TEST_NET
 #include <scorum/app/plugin.hpp>
-#include <steemit/chain/generic_custom_operation_interpreter.hpp>
-#include <steemit/chain/account_object.hpp>
+#include <scorum/chain/generic_custom_operation_interpreter.hpp>
+#include <scorum/chain/account_object.hpp>
 
 #include <boost/test/unit_test.hpp>
 

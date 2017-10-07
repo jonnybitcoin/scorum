@@ -1,5 +1,5 @@
 
-#include <steemit/chain/compound.hpp>
+#include <scorum/chain/compound.hpp>
 #include <scorum/protocol/asset.hpp>
 #include <scorum/protocol/types.hpp>
 

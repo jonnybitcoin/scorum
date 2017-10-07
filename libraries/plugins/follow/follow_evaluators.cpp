@@ -1,8 +1,8 @@
 #include <steemit/follow/follow_operations.hpp>
 #include <steemit/follow/follow_objects.hpp>
 
-#include <steemit/chain/account_object.hpp>
-#include <steemit/chain/comment_object.hpp>
+#include <scorum/chain/account_object.hpp>
+#include <scorum/chain/comment_object.hpp>
 
 namespace scorum { namespace follow {
 

@@ -24,7 +24,7 @@
 #pragma once
 
 #include <scorum/app/plugin.hpp>
-#include <steemit/chain/database.hpp>
+#include <scorum/chain/database.hpp>
 
 #include <fc/thread/future.hpp>
 

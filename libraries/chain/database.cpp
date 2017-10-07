@@ -1,26 +1,26 @@
 #include <scorum/protocol/steem_operations.hpp>
 
-#include <steemit/chain/block_summary_object.hpp>
-#include <steemit/chain/compound.hpp>
-#include <steemit/chain/custom_operation_interpreter.hpp>
-#include <steemit/chain/database.hpp>
-#include <steemit/chain/database_exceptions.hpp>
-#include <steemit/chain/db_with.hpp>
-#include <steemit/chain/evaluator_registry.hpp>
-#include <steemit/chain/global_property_object.hpp>
-#include <steemit/chain/history_object.hpp>
-#include <steemit/chain/index.hpp>
-#include <steemit/chain/steem_evaluator.hpp>
-#include <steemit/chain/steem_objects.hpp>
-#include <steemit/chain/transaction_object.hpp>
-#include <steemit/chain/shared_db_merkle.hpp>
-#include <steemit/chain/operation_notification.hpp>
-#include <steemit/chain/witness_schedule.hpp>
+#include <scorum/chain/block_summary_object.hpp>
+#include <scorum/chain/compound.hpp>
+#include <scorum/chain/custom_operation_interpreter.hpp>
+#include <scorum/chain/database.hpp>
+#include <scorum/chain/database_exceptions.hpp>
+#include <scorum/chain/db_with.hpp>
+#include <scorum/chain/evaluator_registry.hpp>
+#include <scorum/chain/global_property_object.hpp>
+#include <scorum/chain/history_object.hpp>
+#include <scorum/chain/index.hpp>
+#include <scorum/chain/steem_evaluator.hpp>
+#include <scorum/chain/steem_objects.hpp>
+#include <scorum/chain/transaction_object.hpp>
+#include <scorum/chain/shared_db_merkle.hpp>
+#include <scorum/chain/operation_notification.hpp>
+#include <scorum/chain/witness_schedule.hpp>
 
-#include <steemit/chain/util/asset.hpp>
-#include <steemit/chain/util/reward.hpp>
-#include <steemit/chain/util/uint256.hpp>
-#include <steemit/chain/util/reward.hpp>
+#include <scorum/chain/util/asset.hpp>
+#include <scorum/chain/util/reward.hpp>
+#include <scorum/chain/util/uint256.hpp>
+#include <scorum/chain/util/reward.hpp>
 
 #include <fc/smart_ref_impl.hpp>
 #include <fc/uint128.hpp>

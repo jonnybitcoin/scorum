@@ -1,6 +1,6 @@
 
-#include <steemit/chain/util/reward.hpp>
-#include <steemit/chain/util/uint256.hpp>
+#include <scorum/chain/util/reward.hpp>
+#include <scorum/chain/util/uint256.hpp>
 
 namespace scorum { namespace chain { namespace util {
 
