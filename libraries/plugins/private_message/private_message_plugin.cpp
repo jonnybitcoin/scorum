@@ -26,9 +26,9 @@
 #include <steemit/private_message/private_message_operations.hpp>
 #include <steemit/private_message/private_message_plugin.hpp>
 
-#include <steemit/app/impacted.hpp>
+#include <scorum/app/impacted.hpp>
 
-#include <steemit/protocol/config.hpp>
+#include <scorum/protocol/config.hpp>
 
 #include <steemit/chain/database.hpp>
 #include <steemit/chain/index.hpp>

@@ -1,6 +1,6 @@
 #pragma once
-#include <steemit/protocol/exceptions.hpp>
-#include <steemit/protocol/operations.hpp>
+#include <scorum/protocol/exceptions.hpp>
+#include <scorum/protocol/operations.hpp>
 
 namespace scorum { namespace chain {
 

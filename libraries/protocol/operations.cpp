@@ -1,6 +1,6 @@
-#include <steemit/protocol/operations.hpp>
+#include <scorum/protocol/operations.hpp>
 
-#include <steemit/protocol/operation_util_impl.hpp>
+#include <scorum/protocol/operation_util_impl.hpp>
 
 namespace scorum { namespace protocol {
 

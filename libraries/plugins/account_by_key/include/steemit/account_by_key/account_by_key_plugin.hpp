@@ -1,5 +1,5 @@
 #pragma once
-#include <steemit/app/plugin.hpp>
+#include <scorum/app/plugin.hpp>
 #include <steemit/chain/database.hpp>
 
 #include <steemit/account_by_key/account_by_key_api.hpp>

@@ -1,4 +1,4 @@
-#include <steemit/protocol/authority.hpp>
+#include <scorum/protocol/authority.hpp>
 
 namespace scorum { namespace protocol {
 

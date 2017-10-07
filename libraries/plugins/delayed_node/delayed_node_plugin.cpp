@@ -24,11 +24,11 @@
 
 #include <steemit/delayed_node/delayed_node_plugin.hpp>
 
-#include <steemit/protocol/types.hpp>
+#include <scorum/protocol/types.hpp>
 
 #include <steemit/chain/database.hpp>
-#include <steemit/app/api.hpp>
-#include <steemit/app/database_api.hpp>
+#include <scorum/app/api.hpp>
+#include <scorum/app/database_api.hpp>
 
 #include <fc/network/http/websocket.hpp>
 #include <fc/rpc/websocket_api.hpp>

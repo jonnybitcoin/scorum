@@ -3,9 +3,9 @@
 #include <steemit/chain/util/asset.hpp>
 #include <steemit/chain/steem_objects.hpp>
 
-#include <steemit/protocol/asset.hpp>
-#include <steemit/protocol/config.hpp>
-#include <steemit/protocol/types.hpp>
+#include <scorum/protocol/asset.hpp>
+#include <scorum/protocol/config.hpp>
+#include <scorum/protocol/types.hpp>
 
 #include <fc/reflect/reflect.hpp>
 

@@ -1,7 +1,7 @@
 #pragma once
-#include <steemit/protocol/base.hpp>
-#include <steemit/protocol/block_header.hpp>
-#include <steemit/protocol/asset.hpp>
+#include <scorum/protocol/base.hpp>
+#include <scorum/protocol/block_header.hpp>
+#include <scorum/protocol/asset.hpp>
 
 #include <fc/utf8.hpp>
 #include <fc/crypto/equihash.hpp>

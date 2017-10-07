@@ -22,9 +22,9 @@
  * THE SOFTWARE.
  */
 
-#include <steemit/protocol/authority.hpp>
+#include <scorum/protocol/authority.hpp>
 
-#include <steemit/app/impacted.hpp>
+#include <scorum/app/impacted.hpp>
 
 #include <fc/utility.hpp>
 

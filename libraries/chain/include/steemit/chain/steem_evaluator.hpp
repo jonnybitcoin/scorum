@@ -1,6 +1,6 @@
 #pragma once
 
-#include <steemit/protocol/steem_operations.hpp>
+#include <scorum/protocol/steem_operations.hpp>
 
 #include <steemit/chain/evaluator.hpp>
 

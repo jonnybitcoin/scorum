@@ -1,7 +1,7 @@
 
 #pragma once
 
-#include <steemit/protocol/operation_util.hpp>
+#include <scorum/protocol/operation_util.hpp>
 
 #include <fc/static_variant.hpp>
 

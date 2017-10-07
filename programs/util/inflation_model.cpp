@@ -1,7 +1,7 @@
 
 #include <steemit/chain/compound.hpp>
-#include <steemit/protocol/asset.hpp>
-#include <steemit/protocol/types.hpp>
+#include <scorum/protocol/asset.hpp>
+#include <scorum/protocol/types.hpp>
 
 #include <fc/io/json.hpp>
 #include <fc/variant_object.hpp>

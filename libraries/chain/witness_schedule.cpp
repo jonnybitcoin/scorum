@@ -3,7 +3,7 @@
 #include <steemit/chain/witness_objects.hpp>
 #include <steemit/chain/witness_schedule.hpp>
 
-#include <steemit/protocol/config.hpp>
+#include <scorum/protocol/config.hpp>
 
 namespace scorum { namespace chain {
 

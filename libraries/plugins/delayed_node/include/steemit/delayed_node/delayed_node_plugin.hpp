@@ -23,7 +23,7 @@
  */
 #pragma once
 
-#include <steemit/app/plugin.hpp>
+#include <scorum/app/plugin.hpp>
 #include <steemit/chain/steem_objects.hpp>
 
 namespace scorum { namespace delayed_node {

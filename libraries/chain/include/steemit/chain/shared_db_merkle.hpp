@@ -1,4 +1,4 @@
-#include <steemit/protocol/types.hpp>
+#include <scorum/protocol/types.hpp>
 
 namespace scorum { namespace chain {
 

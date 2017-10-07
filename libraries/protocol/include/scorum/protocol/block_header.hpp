@@ -1,5 +1,5 @@
 #pragma once
-#include <steemit/protocol/base.hpp>
+#include <scorum/protocol/base.hpp>
 
 namespace scorum { namespace protocol {
 

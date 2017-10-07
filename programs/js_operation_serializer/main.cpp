@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-#include <steemit/protocol/protocol.hpp>
+#include <scorum/protocol/protocol.hpp>
 #include <steemit/chain/steem_objects.hpp>
 #include <fc/smart_ref_impl.hpp>
 #include <iostream>

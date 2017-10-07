@@ -1,4 +1,4 @@
-#include <steemit/protocol/asset.hpp>
+#include <scorum/protocol/asset.hpp>
 #include <boost/rational.hpp>
 #include <boost/multiprecision/cpp_int.hpp>
 

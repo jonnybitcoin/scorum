@@ -2,9 +2,9 @@
 #include <steemit/follow/follow_objects.hpp>
 #include <steemit/follow/follow_operations.hpp>
 
-#include <steemit/app/impacted.hpp>
+#include <scorum/app/impacted.hpp>
 
-#include <steemit/protocol/config.hpp>
+#include <scorum/protocol/config.hpp>
 
 #include <steemit/chain/database.hpp>
 #include <steemit/chain/index.hpp>

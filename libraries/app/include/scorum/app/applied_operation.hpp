@@ -1,6 +1,6 @@
 #pragma once
 
-#include <steemit/protocol/operations.hpp>
+#include <scorum/protocol/operations.hpp>
 #include <steemit/chain/steem_object_types.hpp>
 
 namespace scorum { namespace app {

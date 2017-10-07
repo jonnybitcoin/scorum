@@ -1,6 +1,6 @@
 #pragma once
 
-#include <steemit/protocol/base.hpp>
+#include <scorum/protocol/base.hpp>
 
 #include <steemit/follow/follow_plugin.hpp>
 

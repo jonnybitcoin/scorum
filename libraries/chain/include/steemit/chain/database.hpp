@@ -9,7 +9,7 @@
 #include <steemit/chain/block_log.hpp>
 #include <steemit/chain/operation_notification.hpp>
 
-#include <steemit/protocol/protocol.hpp>
+#include <scorum/protocol/protocol.hpp>
 
 //#include <graphene/db2/database.hpp>
 #include <fc/signals.hpp>

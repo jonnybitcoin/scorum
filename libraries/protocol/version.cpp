@@ -1,4 +1,4 @@
-#include <steemit/protocol/version.hpp>
+#include <scorum/protocol/version.hpp>
 
 #include <fc/exception/exception.hpp>
 #include <fc/variant.hpp>

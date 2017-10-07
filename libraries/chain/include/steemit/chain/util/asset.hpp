@@ -1,6 +1,6 @@
 #pragma once
 
-#include <steemit/protocol/asset.hpp>
+#include <scorum/protocol/asset.hpp>
 
 namespace scorum { namespace chain { namespace util {
 

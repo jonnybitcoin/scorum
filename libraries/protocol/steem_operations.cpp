@@ -1,4 +1,4 @@
-#include <steemit/protocol/steem_operations.hpp>
+#include <scorum/protocol/steem_operations.hpp>
 #include <fc/io/json.hpp>
 
 #include <locale>

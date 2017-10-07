@@ -1,9 +1,9 @@
 
-#include <steemit/app/api_context.hpp>
-#include <steemit/app/application.hpp>
+#include <scorum/app/api_context.hpp>
+#include <scorum/app/application.hpp>
 
-#include <steemit/protocol/authority.hpp>
-#include <steemit/protocol/sign_state.hpp>
+#include <scorum/protocol/authority.hpp>
+#include <scorum/protocol/sign_state.hpp>
 
 #include <steemit/chain/account_object.hpp>
 #include <steemit/chain/database.hpp>

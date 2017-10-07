@@ -1,6 +1,6 @@
 #pragma once
 #include <fc/filesystem.hpp>
-#include <steemit/protocol/block.hpp>
+#include <scorum/protocol/block.hpp>
 
 namespace scorum { namespace chain {
 

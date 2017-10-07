@@ -1,8 +1,8 @@
 
 #pragma once
 
-#include <steemit/protocol/base.hpp>
-#include <steemit/protocol/types.hpp>
+#include <scorum/protocol/base.hpp>
+#include <scorum/protocol/types.hpp>
 
 #include <fc/reflect/reflect.hpp>
 

@@ -1,5 +1,5 @@
 #pragma once
-#include <steemit/protocol/transaction.hpp>
+#include <scorum/protocol/transaction.hpp>
 
 #include <steemit/chain/steem_object_types.hpp>
 

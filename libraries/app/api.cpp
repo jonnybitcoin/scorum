@@ -23,12 +23,12 @@
  */
 #include <cctype>
 
-#include <steemit/app/api.hpp>
-#include <steemit/app/api_access.hpp>
-#include <steemit/app/application.hpp>
-#include <steemit/app/impacted.hpp>
+#include <scorum/app/api.hpp>
+#include <scorum/app/api_access.hpp>
+#include <scorum/app/application.hpp>
+#include <scorum/app/impacted.hpp>
 
-#include <steemit/protocol/get_config.hpp>
+#include <scorum/protocol/get_config.hpp>
 
 #include <steemit/chain/database.hpp>
 #include <steemit/chain/steem_objects.hpp>

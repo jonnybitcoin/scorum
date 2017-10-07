@@ -1,5 +1,5 @@
-#include <steemit/protocol/config.hpp>
-#include <steemit/protocol/types.hpp>
+#include <scorum/protocol/config.hpp>
+#include <scorum/protocol/types.hpp>
 
 #include <fc/crypto/base58.hpp>
 #include <fc/crypto/ripemd160.hpp>

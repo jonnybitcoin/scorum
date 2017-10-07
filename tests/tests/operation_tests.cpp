@@ -1,7 +1,7 @@
 #ifdef IS_TEST_NET
 #include <boost/test/unit_test.hpp>
 
-#include <steemit/protocol/exceptions.hpp>
+#include <scorum/protocol/exceptions.hpp>
 
 #include <steemit/chain/database.hpp>
 #include <steemit/chain/database_exceptions.hpp>

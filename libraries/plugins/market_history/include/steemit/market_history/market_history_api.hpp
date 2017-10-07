@@ -2,7 +2,7 @@
 
 #include <steemit/market_history/market_history_plugin.hpp>
 
-#include <steemit/protocol/types.hpp>
+#include <scorum/protocol/types.hpp>
 
 #include <fc/api.hpp>
 

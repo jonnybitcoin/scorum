@@ -1,6 +1,6 @@
 #pragma once
 
-#include <steemit/app/application.hpp>
+#include <scorum/app/application.hpp>
 #include <steemit/chain/database.hpp>
 #include <fc/io/json.hpp>
 #include <fc/smart_ref_impl.hpp>

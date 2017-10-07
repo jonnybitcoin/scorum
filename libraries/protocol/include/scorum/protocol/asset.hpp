@@ -1,6 +1,6 @@
 #pragma once
-#include <steemit/protocol/types.hpp>
-#include <steemit/protocol/config.hpp>
+#include <scorum/protocol/types.hpp>
+#include <scorum/protocol/config.hpp>
 
 namespace scorum { namespace protocol {
 

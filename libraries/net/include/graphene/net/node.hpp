@@ -27,7 +27,7 @@
 #include <graphene/net/message.hpp>
 #include <graphene/net/peer_database.hpp>
 
-#include <steemit/protocol/types.hpp>
+#include <scorum/protocol/types.hpp>
 
 #include <list>
 

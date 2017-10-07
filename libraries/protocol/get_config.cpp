@@ -1,8 +1,8 @@
-#include <steemit/protocol/get_config.hpp>
-#include <steemit/protocol/config.hpp>
-#include <steemit/protocol/asset.hpp>
-#include <steemit/protocol/types.hpp>
-#include <steemit/protocol/version.hpp>
+#include <scorum/protocol/get_config.hpp>
+#include <scorum/protocol/config.hpp>
+#include <scorum/protocol/asset.hpp>
+#include <scorum/protocol/types.hpp>
+#include <scorum/protocol/version.hpp>
 
 namespace scorum { namespace protocol {
 

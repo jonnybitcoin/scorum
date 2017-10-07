@@ -1,7 +1,7 @@
 
 #pragma once
 
-#include <steemit/protocol/authority.hpp>
+#include <scorum/protocol/authority.hpp>
 
 #include <fc/variant.hpp>
 

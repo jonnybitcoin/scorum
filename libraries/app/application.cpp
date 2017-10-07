@@ -21,10 +21,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-#include <steemit/app/api.hpp>
-#include <steemit/app/api_access.hpp>
-#include <steemit/app/application.hpp>
-#include <steemit/app/plugin.hpp>
+#include <scorum/app/api.hpp>
+#include <scorum/app/api_access.hpp>
+#include <scorum/app/application.hpp>
+#include <scorum/app/plugin.hpp>
 
 #include <steemit/chain/steem_objects.hpp>
 #include <steemit/chain/steem_object_types.hpp>

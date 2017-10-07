@@ -1,4 +1,4 @@
-#include <steemit/protocol/steem_operations.hpp>
+#include <scorum/protocol/steem_operations.hpp>
 
 #include <steemit/chain/block_summary_object.hpp>
 #include <steemit/chain/compound.hpp>

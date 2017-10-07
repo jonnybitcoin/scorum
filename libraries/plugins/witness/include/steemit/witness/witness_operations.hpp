@@ -1,9 +1,9 @@
 #pragma once
 
-#include <steemit/protocol/base.hpp>
-#include <steemit/protocol/operation_util.hpp>
+#include <scorum/protocol/base.hpp>
+#include <scorum/protocol/operation_util.hpp>
 
-#include <steemit/app/plugin.hpp>
+#include <scorum/app/plugin.hpp>
 
 namespace scorum { namespace witness {
 

@@ -7,8 +7,8 @@
 //#include <graphene/db2/database.hpp>
 #include <chainbase/chainbase.hpp>
 
-#include <steemit/protocol/types.hpp>
-#include <steemit/protocol/authority.hpp>
+#include <scorum/protocol/types.hpp>
+#include <scorum/protocol/authority.hpp>
 
 
 namespace scorum { namespace chain {

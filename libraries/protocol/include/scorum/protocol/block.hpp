@@ -1,6 +1,6 @@
 #pragma once
-#include <steemit/protocol/block_header.hpp>
-#include <steemit/protocol/transaction.hpp>
+#include <scorum/protocol/block_header.hpp>
+#include <scorum/protocol/transaction.hpp>
 
 namespace scorum { namespace protocol {
 

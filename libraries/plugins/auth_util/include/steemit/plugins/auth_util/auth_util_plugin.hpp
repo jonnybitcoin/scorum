@@ -1,7 +1,7 @@
 
 #pragma once
 
-#include <steemit/app/plugin.hpp>
+#include <scorum/app/plugin.hpp>
 
 namespace scorum { namespace plugin { namespace auth_util {
 

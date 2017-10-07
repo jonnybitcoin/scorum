@@ -38,8 +38,8 @@
 
 #include <graphene/utilities/key_conversion.hpp>
 
-#include <steemit/app/api.hpp>
-#include <steemit/protocol/protocol.hpp>
+#include <scorum/app/api.hpp>
+#include <scorum/protocol/protocol.hpp>
 #include <steemit/wallet/wallet.hpp>
 
 #include <fc/interprocess/signals.hpp>

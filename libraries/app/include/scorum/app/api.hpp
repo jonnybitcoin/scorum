@@ -23,9 +23,9 @@
  */
 #pragma once
 
-#include <steemit/app/api_context.hpp>
-#include <steemit/app/database_api.hpp>
-#include <steemit/protocol/types.hpp>
+#include <scorum/app/api_context.hpp>
+#include <scorum/app/database_api.hpp>
+#include <scorum/protocol/types.hpp>
 
 #include <graphene/net/node.hpp>
 

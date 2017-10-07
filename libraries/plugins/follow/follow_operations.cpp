@@ -1,6 +1,6 @@
 #include <steemit/follow/follow_operations.hpp>
 
-#include <steemit/protocol/operation_util_impl.hpp>
+#include <scorum/protocol/operation_util_impl.hpp>
 
 namespace scorum { namespace follow {
 

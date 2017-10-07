@@ -1,6 +1,6 @@
 #pragma once
-#include <steemit/app/applied_operation.hpp>
-#include <steemit/app/state.hpp>
+#include <scorum/app/applied_operation.hpp>
+#include <scorum/app/state.hpp>
 
 #include <steemit/chain/database.hpp>
 #include <steemit/chain/steem_objects.hpp>

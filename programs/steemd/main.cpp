@@ -1,4 +1,4 @@
-#include <steemit/app/application.hpp>
+#include <scorum/app/application.hpp>
 
 #include <steemit/witness/witness_plugin.hpp>
 #include <steemit/manifest/plugins.hpp>
@@ -11,7 +11,7 @@
 #include <fc/log/logger.hpp>
 #include <fc/log/logger_config.hpp>
 
-#include <steemit/protocol/version.hpp>
+#include <scorum/protocol/version.hpp>
 #include <graphene/utilities/git_revision.hpp>
 #include <fc/git_revision.hpp>
 

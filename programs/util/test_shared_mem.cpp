@@ -10,8 +10,8 @@
 
 #include <graphene/utilities/key_conversion.hpp>
 
-#include <steemit/protocol/types.hpp>
-#include <steemit/protocol/authority.hpp>
+#include <scorum/protocol/types.hpp>
+#include <scorum/protocol/authority.hpp>
 
 #include <steemit/chain/shared_authority.hpp>
 

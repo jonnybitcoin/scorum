@@ -1,5 +1,5 @@
 
-#include <steemit/protocol/sign_state.hpp>
+#include <scorum/protocol/sign_state.hpp>
 
 namespace scorum { namespace protocol {
 

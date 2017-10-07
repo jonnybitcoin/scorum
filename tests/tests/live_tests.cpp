@@ -1,6 +1,6 @@
 #include <boost/test/unit_test.hpp>
 
-#include <steemit/protocol/exceptions.hpp>
+#include <scorum/protocol/exceptions.hpp>
 
 #include <steemit/chain/database.hpp>
 #include <steemit/chain/hardfork.hpp>

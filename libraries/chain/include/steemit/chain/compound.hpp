@@ -2,8 +2,8 @@
 
 #include <cstdint>
 
-#include <steemit/protocol/config.hpp>
-#include <steemit/protocol/types.hpp>
+#include <scorum/protocol/config.hpp>
+#include <scorum/protocol/types.hpp>
 
 #include <fc/uint128.hpp>
 

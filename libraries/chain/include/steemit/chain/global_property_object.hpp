@@ -3,7 +3,7 @@
 
 #include <steemit/chain/steem_object_types.hpp>
 
-#include <steemit/protocol/asset.hpp>
+#include <scorum/protocol/asset.hpp>
 
 namespace scorum { namespace chain {
 

@@ -1,8 +1,8 @@
-#include <steemit/app/api_context.hpp>
-#include <steemit/app/application.hpp>
-#include <steemit/app/database_api.hpp>
+#include <scorum/app/api_context.hpp>
+#include <scorum/app/application.hpp>
+#include <scorum/app/database_api.hpp>
 
-#include <steemit/protocol/get_config.hpp>
+#include <scorum/protocol/get_config.hpp>
 
 #include <steemit/chain/util/reward.hpp>
 

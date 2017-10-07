@@ -3,10 +3,10 @@
 #include <fc/optional.hpp>
 #include <fc/variant_object.hpp>
 
-#include <steemit/app/api_context.hpp>
-#include <steemit/app/application.hpp>
+#include <scorum/app/api_context.hpp>
+#include <scorum/app/application.hpp>
 
-#include <steemit/protocol/block.hpp>
+#include <scorum/protocol/block.hpp>
 
 #include <steemit/chain/block_log.hpp>
 #include <steemit/chain/account_object.hpp>
