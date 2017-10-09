@@ -11,7 +11,7 @@
 
 #include <scorum/chain/util/reward.hpp>
 
-#include <steemit/plugins/debug_node/debug_node_plugin.hpp>
+#include <scorum/plugins/debug_node/debug_node_plugin.hpp>
 
 #include <fc/crypto/digest.hpp>
 

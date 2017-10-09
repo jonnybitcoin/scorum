@@ -15,8 +15,8 @@
 
 #include <graphene/utilities/key_conversion.hpp>
 
-#include <steemit/plugins/debug_node/debug_node_api.hpp>
-#include <steemit/plugins/debug_node/debug_node_plugin.hpp>
+#include <scorum/plugins/debug_node/debug_node_api.hpp>
+#include <scorum/plugins/debug_node/debug_node_plugin.hpp>
 
 namespace scorum { namespace plugin { namespace debug_node {
 

@@ -1,8 +1,8 @@
 
 #include <scorum/app/application.hpp>
 #include <scorum/app/plugin.hpp>
-#include <steemit/plugins/debug_node/debug_node_api.hpp>
-#include <steemit/plugins/debug_node/debug_node_plugin.hpp>
+#include <scorum/plugins/debug_node/debug_node_api.hpp>
+#include <scorum/plugins/debug_node/debug_node_plugin.hpp>
 
 #include <fc/io/buffered_iostream.hpp>
 #include <fc/io/fstream.hpp>
