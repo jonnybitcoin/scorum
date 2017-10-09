@@ -30,7 +30,7 @@
 #include <scorum/chain/database_exceptions.hpp>
 #include <scorum/chain/generic_custom_operation_interpreter.hpp>
 #include <scorum/chain/index.hpp>
-#include <scorum/chain/steem_objects.hpp>
+#include <scorum/chain/scorum_objects.hpp>
 
 #include <fc/time.hpp>
 

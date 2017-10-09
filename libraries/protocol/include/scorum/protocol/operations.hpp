@@ -1,8 +1,8 @@
 #pragma once
 
 #include <scorum/protocol/operation_util.hpp>
-#include <scorum/protocol/steem_operations.hpp>
-#include <scorum/protocol/steem_virtual_operations.hpp>
+#include <scorum/protocol/scorum_operations.hpp>
+#include <scorum/protocol/scorum_virtual_operations.hpp>
 
 namespace scorum { namespace protocol {
 

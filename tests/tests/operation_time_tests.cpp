@@ -7,7 +7,7 @@
 #include <scorum/chain/database.hpp>
 #include <steemit/chain/hardfork.hpp>
 #include <scorum/chain/history_object.hpp>
-#include <scorum/chain/steem_objects.hpp>
+#include <scorum/chain/scorum_objects.hpp>
 
 #include <scorum/chain/util/reward.hpp>
 

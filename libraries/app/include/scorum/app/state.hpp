@@ -1,10 +1,10 @@
 #pragma once
 #include <scorum/app/applied_operation.hpp>
-#include <scorum/app/steem_api_objects.hpp>
+#include <scorum/app/scorum_api_objects.hpp>
 
 #include <scorum/chain/global_property_object.hpp>
 #include <scorum/chain/account_object.hpp>
-#include <scorum/chain/steem_objects.hpp>
+#include <scorum/chain/scorum_objects.hpp>
 
 namespace scorum { namespace app {
    using std::string;

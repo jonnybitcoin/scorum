@@ -1,7 +1,7 @@
 #pragma once
 
 #include <scorum/app/application.hpp>
-#include <scorum/app/steem_api_objects.hpp>
+#include <scorum/app/scorum_api_objects.hpp>
 
 #include <scorum/follow/follow_objects.hpp>
 

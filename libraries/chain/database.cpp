@@ -1,4 +1,4 @@
-#include <scorum/protocol/steem_operations.hpp>
+#include <scorum/protocol/scorum_operations.hpp>
 
 #include <scorum/chain/block_summary_object.hpp>
 #include <scorum/chain/compound.hpp>
@@ -10,8 +10,8 @@
 #include <scorum/chain/global_property_object.hpp>
 #include <scorum/chain/history_object.hpp>
 #include <scorum/chain/index.hpp>
-#include <scorum/chain/steem_evaluator.hpp>
-#include <scorum/chain/steem_objects.hpp>
+#include <scorum/chain/scorum_evaluator.hpp>
+#include <scorum/chain/scorum_objects.hpp>
 #include <scorum/chain/transaction_object.hpp>
 #include <scorum/chain/shared_db_merkle.hpp>
 #include <scorum/chain/operation_notification.hpp>

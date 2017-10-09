@@ -1,12 +1,12 @@
 # Operations
-In the `steem_evaluator.hpp` defined list of evaluators.
+In the `scorum_evaluator.hpp` defined list of evaluators.
 Evaluators have an interface:
 
     void apply(const OperationType& op) = 0;
     int get_type() const = 0;
 
 All evaluators should implement `void do_apply(operation)` method.
-Evaluators should be applied to operations. Operations defined in `steem_operations.hpp`
+Evaluators should be applied to operations. Operations defined in `scorum_operations.hpp`
 
 Operations inherited from:
 
@@ -21,13 +21,13 @@ Operations inherited from:
         void validate()const {}
     };
 
-In the `protocol/steem_operations.hpp` defined structs `operations` inherited from `base_operation`.
+In the `protocol/scorum_operations.hpp` defined structs `operations` inherited from `base_operation`.
 
 In the `protocol/operations.hpp` declared type
 
     typedef fc::static_variant<X,Y,Z,...> operation; // OperationType
 
-Where `X,Y,Z` is operations from `protocol/steem_operations.hpp`
+Where `X,Y,Z` is operations from `protocol/scorum_operations.hpp`
 
 `DECLARE_OPERATION_TYPE` macro generate for type `steemit::protocol::operation` two functions in the fc namespace.
 

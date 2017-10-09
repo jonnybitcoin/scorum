@@ -8,7 +8,7 @@
 #include <vector>
 
 #include <scorum/chain/account_object.hpp>
-#include <scorum/chain/steem_objects.hpp>
+#include <scorum/chain/scorum_objects.hpp>
 
 using namespace graphene::db;
 

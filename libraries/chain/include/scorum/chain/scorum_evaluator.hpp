@@ -1,6 +1,6 @@
 #pragma once
 
-#include <scorum/protocol/steem_operations.hpp>
+#include <scorum/protocol/scorum_operations.hpp>
 
 #include <scorum/chain/evaluator.hpp>
 

@@ -27,7 +27,7 @@
 #include <scorum/chain/database.hpp>
 #include <scorum/protocol/protocol.hpp>
 
-#include <scorum/protocol/steem_operations.hpp>
+#include <scorum/protocol/scorum_operations.hpp>
 
 #include <fc/crypto/digest.hpp>
 #include <fc/crypto/hex.hpp>

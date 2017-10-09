@@ -1,6 +1,6 @@
 #include <scorum/market_history/market_history_api.hpp>
 
-#include <scorum/chain/steem_objects.hpp>
+#include <scorum/chain/scorum_objects.hpp>
 
 namespace scorum { namespace market_history {
 

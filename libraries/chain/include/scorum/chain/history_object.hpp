@@ -2,9 +2,9 @@
 
 #include <scorum/protocol/authority.hpp>
 #include <scorum/protocol/operations.hpp>
-#include <scorum/protocol/steem_operations.hpp>
+#include <scorum/protocol/scorum_operations.hpp>
 
-#include <scorum/chain/steem_object_types.hpp>
+#include <scorum/chain/scorum_object_types.hpp>
 #include <scorum/chain/witness_objects.hpp>
 
 #include <boost/multi_index/composite_key.hpp>

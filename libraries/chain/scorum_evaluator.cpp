@@ -1,7 +1,7 @@
-#include <scorum/chain/steem_evaluator.hpp>
+#include <scorum/chain/scorum_evaluator.hpp>
 #include <scorum/chain/database.hpp>
 #include <scorum/chain/custom_operation_interpreter.hpp>
-#include <scorum/chain/steem_objects.hpp>
+#include <scorum/chain/scorum_objects.hpp>
 #include <scorum/chain/witness_objects.hpp>
 #include <scorum/chain/block_summary_object.hpp>
 

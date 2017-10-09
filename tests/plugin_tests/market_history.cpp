@@ -3,7 +3,7 @@
 
 #include <scorum/chain/account_object.hpp>
 #include <scorum/chain/comment_object.hpp>
-#include <scorum/protocol/steem_operations.hpp>
+#include <scorum/protocol/scorum_operations.hpp>
 
 #include <scorum/market_history/market_history_plugin.hpp>
 

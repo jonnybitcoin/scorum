@@ -31,7 +31,7 @@
 #include <scorum/protocol/get_config.hpp>
 
 #include <scorum/chain/database.hpp>
-#include <scorum/chain/steem_objects.hpp>
+#include <scorum/chain/scorum_objects.hpp>
 #include <scorum/chain/transaction_object.hpp>
 #include <fc/time.hpp>
 

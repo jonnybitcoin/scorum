@@ -22,9 +22,9 @@ add_library( scorum_chain
              fork_database.cpp
              witness_schedule.cpp
 
-             steem_evaluator.cpp
+             scorum_evaluator.cpp
 
-             steem_objects.cpp
+             scorum_objects.cpp
              shared_authority.cpp
              block_log.cpp
 

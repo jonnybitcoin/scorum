@@ -4,7 +4,7 @@
 #include <scorum/chain/comment_object.hpp>
 #include <scorum/chain/global_property_object.hpp>
 #include <scorum/chain/history_object.hpp>
-#include <scorum/chain/steem_objects.hpp>
+#include <scorum/chain/scorum_objects.hpp>
 #include <scorum/chain/transaction_object.hpp>
 #include <scorum/chain/witness_objects.hpp>
 

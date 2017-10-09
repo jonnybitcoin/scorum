@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 #include <scorum/protocol/protocol.hpp>
-#include <scorum/chain/steem_objects.hpp>
+#include <scorum/chain/scorum_objects.hpp>
 #include <fc/smart_ref_impl.hpp>
 #include <iostream>
 

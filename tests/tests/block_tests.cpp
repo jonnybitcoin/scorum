@@ -27,7 +27,7 @@
 #include <scorum/protocol/exceptions.hpp>
 
 #include <scorum/chain/database.hpp>
-#include <scorum/chain/steem_objects.hpp>
+#include <scorum/chain/scorum_objects.hpp>
 #include <scorum/chain/history_object.hpp>
 
 #include <scorum/account_history/account_history_plugin.hpp>
