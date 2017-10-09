@@ -40,7 +40,7 @@
 
 #include <scorum/app/api.hpp>
 #include <scorum/protocol/protocol.hpp>
-#include <steemit/wallet/wallet.hpp>
+#include <scorum/wallet/wallet.hpp>
 
 #include <fc/interprocess/signals.hpp>
 #include <boost/program_options.hpp>

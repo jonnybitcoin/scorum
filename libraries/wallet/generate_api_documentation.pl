@@ -13,8 +13,8 @@ my $outFile = new IO::File($outputFileName, "w")
 my $fileHeader = <<'END';
 /** GENERATED FILE **/
 #include <set>
-#include <steemit/wallet/api_documentation.hpp>
-#include <steemit/wallet/wallet.hpp>
+#include <scorum/wallet/api_documentation.hpp>
+#include <scorum/wallet/wallet.hpp>
 
 namespace scorum { namespace wallet {
    namespace detail

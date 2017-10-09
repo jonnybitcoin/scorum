@@ -23,8 +23,8 @@
  */
 #include <iomanip>
 #include <boost/algorithm/string/join.hpp>
-#include <steemit/wallet/wallet.hpp>
-#include <steemit/wallet/api_documentation.hpp>
+#include <scorum/wallet/wallet.hpp>
+#include <scorum/wallet/api_documentation.hpp>
 
 namespace scorum { namespace wallet {
    namespace detail {
