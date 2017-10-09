@@ -4,8 +4,8 @@
 
 #include <scorum/app/api.hpp>
 #include <scorum/protocol/base.hpp>
-#include <steemit/follow/follow_operations.hpp>
-#include <steemit/private_message/private_message_operations.hpp>
+#include <scorum/follow/follow_operations.hpp>
+#include <scorum/private_message/private_message_operations.hpp>
 #include <scorum/wallet/wallet.hpp>
 #include <scorum/wallet/api_documentation.hpp>
 #include <scorum/wallet/reflect_util.hpp>

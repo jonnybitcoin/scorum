@@ -9,8 +9,8 @@
 
 #include <scorum/tags/tags_plugin.hpp>
 
-#include <steemit/follow/follow_plugin.hpp>
-#include <steemit/witness/witness_plugin.hpp>
+#include <scorum/follow/follow_plugin.hpp>
+#include <scorum/witness/witness_plugin.hpp>
 
 #include <fc/api.hpp>
 #include <fc/optional.hpp>

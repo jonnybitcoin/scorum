@@ -1,5 +1,5 @@
-#include <steemit/follow/follow_operations.hpp>
-#include <steemit/follow/follow_objects.hpp>
+#include <scorum/follow/follow_operations.hpp>
+#include <scorum/follow/follow_objects.hpp>
 
 #include <scorum/chain/account_object.hpp>
 #include <scorum/chain/comment_object.hpp>

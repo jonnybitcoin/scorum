@@ -2,8 +2,8 @@
 
 #include <scorum/chain/evaluator.hpp>
 
-#include <steemit/private_message/private_message_operations.hpp>
-#include <steemit/private_message/private_message_plugin.hpp>
+#include <scorum/private_message/private_message_operations.hpp>
+#include <scorum/private_message/private_message_plugin.hpp>
 
 namespace scorum { namespace private_message {
 

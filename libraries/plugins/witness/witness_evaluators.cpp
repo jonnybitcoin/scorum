@@ -1,5 +1,5 @@
-#include <steemit/witness/witness_operations.hpp>
-#include <steemit/witness/witness_objects.hpp>
+#include <scorum/witness/witness_operations.hpp>
+#include <scorum/witness/witness_objects.hpp>
 
 #include <scorum/chain/comment_object.hpp>
 

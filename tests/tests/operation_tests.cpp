@@ -10,7 +10,7 @@
 
 #include <scorum/chain/util/reward.hpp>
 
-#include <steemit/witness/witness_objects.hpp>
+#include <scorum/witness/witness_objects.hpp>
 
 #include <fc/crypto/digest.hpp>
 

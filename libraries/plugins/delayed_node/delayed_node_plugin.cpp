@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-#include <steemit/delayed_node/delayed_node_plugin.hpp>
+#include <scorum/delayed_node/delayed_node_plugin.hpp>
 
 #include <scorum/protocol/types.hpp>
 

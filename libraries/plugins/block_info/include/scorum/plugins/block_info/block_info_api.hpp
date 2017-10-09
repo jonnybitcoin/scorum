@@ -3,7 +3,7 @@
 
 #include <fc/api.hpp>
 
-#include <steemit/plugins/block_info/block_info.hpp>
+#include <scorum/plugins/block_info/block_info.hpp>
 
 namespace scorum { namespace app {
    struct api_context;

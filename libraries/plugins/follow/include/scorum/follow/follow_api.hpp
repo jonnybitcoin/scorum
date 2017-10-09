@@ -3,7 +3,7 @@
 #include <scorum/app/application.hpp>
 #include <scorum/app/steem_api_objects.hpp>
 
-#include <steemit/follow/follow_objects.hpp>
+#include <scorum/follow/follow_objects.hpp>
 
 #include <fc/api.hpp>
 

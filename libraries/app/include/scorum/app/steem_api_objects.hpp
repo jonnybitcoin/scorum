@@ -10,7 +10,7 @@
 
 #include <scorum/tags/tags_plugin.hpp>
 
-#include <steemit/witness/witness_objects.hpp>
+#include <scorum/witness/witness_objects.hpp>
 
 namespace scorum { namespace app {
 

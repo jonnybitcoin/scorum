@@ -1,7 +1,7 @@
 
 
-#include <steemit/plugins/raw_block/raw_block_api.hpp>
-#include <steemit/plugins/raw_block/raw_block_plugin.hpp>
+#include <scorum/plugins/raw_block/raw_block_api.hpp>
+#include <scorum/plugins/raw_block/raw_block_plugin.hpp>
 
 #include <string>
 

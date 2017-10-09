@@ -2,8 +2,8 @@
 #include <scorum/app/api_context.hpp>
 #include <scorum/app/application.hpp>
 
-#include <steemit/plugins/block_info/block_info_api.hpp>
-#include <steemit/plugins/block_info/block_info_plugin.hpp>
+#include <scorum/plugins/block_info/block_info_api.hpp>
+#include <scorum/plugins/block_info/block_info_plugin.hpp>
 
 namespace scorum { namespace plugin { namespace block_info {
 

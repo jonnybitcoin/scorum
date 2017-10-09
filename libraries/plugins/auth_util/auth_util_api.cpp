@@ -8,8 +8,8 @@
 #include <scorum/chain/account_object.hpp>
 #include <scorum/chain/database.hpp>
 
-#include <steemit/plugins/auth_util/auth_util_api.hpp>
-#include <steemit/plugins/auth_util/auth_util_plugin.hpp>
+#include <scorum/plugins/auth_util/auth_util_api.hpp>
+#include <scorum/plugins/auth_util/auth_util_plugin.hpp>
 
 #include <fc/container/flat.hpp>
 

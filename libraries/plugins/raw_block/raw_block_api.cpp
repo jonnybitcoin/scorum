@@ -2,8 +2,8 @@
 #include <scorum/app/api_context.hpp>
 #include <scorum/app/application.hpp>
 
-#include <steemit/plugins/raw_block/raw_block_api.hpp>
-#include <steemit/plugins/raw_block/raw_block_plugin.hpp>
+#include <scorum/plugins/raw_block/raw_block_api.hpp>
+#include <scorum/plugins/raw_block/raw_block_plugin.hpp>
 
 namespace scorum { namespace plugin { namespace raw_block {
 

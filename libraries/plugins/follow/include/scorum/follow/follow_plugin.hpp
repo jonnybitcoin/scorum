@@ -4,7 +4,7 @@
 
 #include <fc/thread/future.hpp>
 
-#include <steemit/follow/follow_api.hpp>
+#include <scorum/follow/follow_api.hpp>
 
 namespace scorum { namespace follow {
 using scorum::app::application;

@@ -5,7 +5,7 @@
 #include <scorum/chain/comment_object.hpp>
 #include <scorum/protocol/steem_operations.hpp>
 
-#include <steemit/market_history/market_history_plugin.hpp>
+#include <scorum/market_history/market_history_plugin.hpp>
 
 #include "../common/database_fixture.hpp"
 

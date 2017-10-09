@@ -1,6 +1,6 @@
-#include <steemit/follow/follow_api.hpp>
-#include <steemit/follow/follow_objects.hpp>
-#include <steemit/follow/follow_operations.hpp>
+#include <scorum/follow/follow_api.hpp>
+#include <scorum/follow/follow_objects.hpp>
+#include <scorum/follow/follow_operations.hpp>
 
 #include <scorum/app/impacted.hpp>
 

@@ -1,4 +1,4 @@
-#include <steemit/follow/follow_operations.hpp>
+#include <scorum/follow/follow_operations.hpp>
 
 #include <scorum/protocol/operation_util_impl.hpp>
 

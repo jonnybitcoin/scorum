@@ -1,6 +1,6 @@
 #pragma once
 
-#include <steemit/market_history/market_history_plugin.hpp>
+#include <scorum/market_history/market_history_plugin.hpp>
 
 #include <scorum/protocol/types.hpp>
 

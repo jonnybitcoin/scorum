@@ -2,7 +2,7 @@
 #pragma once
 
 #include <scorum/app/plugin.hpp>
-#include <steemit/plugins/block_info/block_info.hpp>
+#include <scorum/plugins/block_info/block_info.hpp>
 
 #include <string>
 #include <vector>

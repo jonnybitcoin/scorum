@@ -1,7 +1,7 @@
 #include <scorum/app/application.hpp>
 
-#include <steemit/witness/witness_plugin.hpp>
-#include <steemit/manifest/plugins.hpp>
+#include <scorum/witness/witness_plugin.hpp>
+#include <scorum/manifest/plugins.hpp>
 
 #include <fc/exception/exception.hpp>
 #include <fc/thread/thread.hpp>

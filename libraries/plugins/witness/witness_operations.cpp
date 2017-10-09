@@ -1,4 +1,4 @@
-#include <steemit/witness/witness_operations.hpp>
+#include <scorum/witness/witness_operations.hpp>
 
 #include <scorum/protocol/operation_util_impl.hpp>
 

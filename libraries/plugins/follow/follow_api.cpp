@@ -1,6 +1,6 @@
 #include <scorum/chain/account_object.hpp>
 
-#include <steemit/follow/follow_api.hpp>
+#include <scorum/follow/follow_api.hpp>
 
 namespace scorum { namespace follow {
 

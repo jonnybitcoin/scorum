@@ -1,8 +1,8 @@
 #pragma once
 
 #include <scorum/app/api.hpp>
-#include <steemit/private_message/private_message_plugin.hpp>
-#include <steemit/follow/follow_plugin.hpp>
+#include <scorum/private_message/private_message_plugin.hpp>
+#include <scorum/follow/follow_plugin.hpp>
 #include <scorum/app/steem_api_objects.hpp>
 
 #include <graphene/utilities/key_conversion.hpp>

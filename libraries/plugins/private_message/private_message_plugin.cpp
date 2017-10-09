@@ -22,9 +22,9 @@
  * THE SOFTWARE.
  */
 
-#include <steemit/private_message/private_message_evaluators.hpp>
-#include <steemit/private_message/private_message_operations.hpp>
-#include <steemit/private_message/private_message_plugin.hpp>
+#include <scorum/private_message/private_message_evaluators.hpp>
+#include <scorum/private_message/private_message_operations.hpp>
+#include <scorum/private_message/private_message_plugin.hpp>
 
 #include <scorum/app/impacted.hpp>
 

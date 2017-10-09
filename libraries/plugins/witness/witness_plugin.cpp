@@ -21,9 +21,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-#include <steemit/witness/witness_plugin.hpp>
-#include <steemit/witness/witness_objects.hpp>
-#include <steemit/witness/witness_operations.hpp>
+#include <scorum/witness/witness_plugin.hpp>
+#include <scorum/witness/witness_objects.hpp>
+#include <scorum/witness/witness_operations.hpp>
 
 #include <scorum/chain/account_object.hpp>
 #include <scorum/chain/database.hpp>

@@ -2,9 +2,9 @@
 #include <scorum/chain/database.hpp>
 #include <scorum/chain/global_property_object.hpp>
 
-#include <steemit/plugins/block_info/block_info.hpp>
-#include <steemit/plugins/block_info/block_info_api.hpp>
-#include <steemit/plugins/block_info/block_info_plugin.hpp>
+#include <scorum/plugins/block_info/block_info.hpp>
+#include <scorum/plugins/block_info/block_info_api.hpp>
+#include <scorum/plugins/block_info/block_info_plugin.hpp>
 
 #include <string>
 
