@@ -8,7 +8,7 @@
 #include <scorum/chain/transaction_object.hpp>
 #include <scorum/chain/witness_objects.hpp>
 
-#include <steemit/tags/tags_plugin.hpp>
+#include <scorum/tags/tags_plugin.hpp>
 
 #include <steemit/witness/witness_objects.hpp>
 

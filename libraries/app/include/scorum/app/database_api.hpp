@@ -7,7 +7,7 @@
 #include <scorum/chain/steem_object_types.hpp>
 #include <scorum/chain/history_object.hpp>
 
-#include <steemit/tags/tags_plugin.hpp>
+#include <scorum/tags/tags_plugin.hpp>
 
 #include <steemit/follow/follow_plugin.hpp>
 #include <steemit/witness/witness_plugin.hpp>

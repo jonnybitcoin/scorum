@@ -1,4 +1,4 @@
-#include <steemit/tags/tags_plugin.hpp>
+#include <scorum/tags/tags_plugin.hpp>
 
 #include <scorum/app/impacted.hpp>
 
