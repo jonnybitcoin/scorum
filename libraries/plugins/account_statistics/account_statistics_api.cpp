@@ -1,4 +1,4 @@
-#include <steemit/account_statistics/account_statistics_api.hpp>
+#include <scorum/account_statistics/account_statistics_api.hpp>
 
 namespace scorum { namespace account_statistics {
 

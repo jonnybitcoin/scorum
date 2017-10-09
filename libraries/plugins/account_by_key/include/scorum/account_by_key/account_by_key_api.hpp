@@ -2,7 +2,7 @@
 
 #include <scorum/app/application.hpp>
 
-#include <steemit/account_by_key/account_by_key_objects.hpp>
+#include <scorum/account_by_key/account_by_key_objects.hpp>
 
 #include <fc/api.hpp>
 

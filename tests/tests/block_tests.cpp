@@ -30,7 +30,7 @@
 #include <scorum/chain/steem_objects.hpp>
 #include <scorum/chain/history_object.hpp>
 
-#include <steemit/account_history/account_history_plugin.hpp>
+#include <scorum/account_history/account_history_plugin.hpp>
 
 #include <graphene/utilities/tempdir.hpp>
 

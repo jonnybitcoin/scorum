@@ -1,5 +1,5 @@
-#include <steemit/account_by_key/account_by_key_api.hpp>
-#include <steemit/account_by_key/account_by_key_objects.hpp>
+#include <scorum/account_by_key/account_by_key_api.hpp>
+#include <scorum/account_by_key/account_by_key_objects.hpp>
 
 namespace scorum { namespace account_by_key {
 

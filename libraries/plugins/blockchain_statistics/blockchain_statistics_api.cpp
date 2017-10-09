@@ -1,4 +1,4 @@
-#include <steemit/blockchain_statistics/blockchain_statistics_api.hpp>
+#include <scorum/blockchain_statistics/blockchain_statistics_api.hpp>
 
 namespace scorum { namespace blockchain_statistics {
 

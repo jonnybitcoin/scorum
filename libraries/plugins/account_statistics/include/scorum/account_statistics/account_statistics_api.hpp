@@ -1,6 +1,6 @@
 #pragma once
 
-#include <steemit/account_statistics/account_statistics_plugin.hpp>
+#include <scorum/account_statistics/account_statistics_plugin.hpp>
 
 #include <fc/api.hpp>
 

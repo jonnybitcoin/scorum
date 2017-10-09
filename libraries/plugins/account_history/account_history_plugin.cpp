@@ -1,4 +1,4 @@
-#include <steemit/account_history/account_history_plugin.hpp>
+#include <scorum/account_history/account_history_plugin.hpp>
 
 #include <scorum/app/impacted.hpp>
 

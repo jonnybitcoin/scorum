@@ -1,5 +1,5 @@
-#include <steemit/account_by_key/account_by_key_plugin.hpp>
-#include <steemit/account_by_key/account_by_key_objects.hpp>
+#include <scorum/account_by_key/account_by_key_plugin.hpp>
+#include <scorum/account_by_key/account_by_key_objects.hpp>
 
 #include <scorum/chain/account_object.hpp>
 #include <scorum/chain/database.hpp>

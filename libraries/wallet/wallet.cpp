@@ -10,7 +10,7 @@
 #include <scorum/wallet/api_documentation.hpp>
 #include <scorum/wallet/reflect_util.hpp>
 
-#include <steemit/account_by_key/account_by_key_api.hpp>
+#include <scorum/account_by_key/account_by_key_api.hpp>
 
 #include <algorithm>
 #include <cctype>
