@@ -1,17 +1,18 @@
-# Introducing Scorum (beta)
+# Introducing Scorum - sports media blockchain
 
-Scorum is an experimental Delegated Proof of Stake blockchain with an unproven consensus
+Scorum is an sports media platform, which is operating on Delegated Proof of Stake blockchain with an unproven consensus
 algorithm.
 
-  - Currency symbol SCORUM
-  - 1.000 SCORUM block reward at launch
-  - 10% APR inflation narrowing to 1% APR over 20 years.
+  - Currency symbol SCR
+  - 27.000.000 SCR distributed during reward at launch
+  - No inflation
+  - Advertisment profist is distributed to platform users
 
 # Public Announcement & Discussion
 
 Scorum was announced on the
 [ADD_LINK_HERE](the_link) prior to
-the start of any mining.
+the start of any blocks producing.
 
 # No Support & No Warranty
 
