@@ -5,7 +5,7 @@
 #include <scorum/protocol/config.hpp>
 
 #include <scorum/chain/database.hpp>
-#include <steemit/chain/hardfork.hpp>
+#include <scorum/chain/hardfork.hpp>
 #include <scorum/chain/index.hpp>
 #include <scorum/chain/operation_notification.hpp>
 #include <scorum/chain/account_object.hpp>

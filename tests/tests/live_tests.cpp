@@ -3,7 +3,7 @@
 #include <scorum/protocol/exceptions.hpp>
 
 #include <scorum/chain/database.hpp>
-#include <steemit/chain/hardfork.hpp>
+#include <scorum/chain/hardfork.hpp>
 #include <scorum/chain/scorum_objects.hpp>
 
 #include <fc/crypto/digest.hpp>
