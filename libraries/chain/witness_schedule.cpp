@@ -55,9 +55,8 @@ void update_median_witness_props(database& db)
         _wso.median_props.maximum_block_size = median_maximum_block_size;
     });
 
-    db.modify(db.get_dynamic_global_properties(), [&](dynamic_global_property_object& _dgpo) {
-        _dgpo.maximum_block_size = median_maximum_block_size;
-    });
+    db.modify(db.get_dynamic_global_properties(),
+        [&](dynamic_global_property_object& _dgpo) { _dgpo.maximum_block_size = median_maximum_block_size; });
 }
 
 /**
@@ -144,11 +143,11 @@ void update_witness_schedule(database& db)
         FC_ASSERT(active_witnesses.size() == expected_active_witnesses,
             "number of active witnesses does not equal expected_active_witnesses=${expected_active_witnesses}",
             ("active_witnesses.size()", active_witnesses.size())("SCORUM_MAX_WITNESSES", SCORUM_MAX_WITNESSES)(
-                      "expected_active_witnesses", expected_active_witnesses));
+                "expected_active_witnesses", expected_active_witnesses));
 
         auto majority_version = wso.majority_version;
 
-        flat_map<version, uint32_t, std::greater<version> > witness_versions;
+        flat_map<version, uint32_t, std::greater<version>> witness_versions;
         flat_map<std::tuple<hardfork_version, time_point_sec>, uint32_t> hardfork_version_votes;
 
         for (uint32_t i = 0; i < wso.num_scheduled_witnesses; i++)
@@ -255,5 +254,5 @@ void update_witness_schedule(database& db)
         update_median_witness_props(db);
     }
 }
-}
-}
+} // namespace chain
+} // namespace scorum

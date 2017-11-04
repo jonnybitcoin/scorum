@@ -1,10 +1,12 @@
 #pragma once
 
-namespace scorum { namespace chain {
+namespace scorum {
+namespace chain {
 
 class database;
 
-void update_witness_schedule( database& db );
-void reset_virtual_schedule_time( database& db );
+void update_witness_schedule(database& db);
+void reset_virtual_schedule_time(database& db);
 
-} }
+} // namespace chain
+} // namespace scorum

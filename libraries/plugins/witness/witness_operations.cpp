@@ -2,13 +2,12 @@
 
 #include <scorum/protocol/operation_util_impl.hpp>
 
-namespace scorum { namespace witness {
+namespace scorum {
+namespace witness {
 
-void enable_content_editing_operation::validate()const
-{
-   chain::validate_account_name( account );
-}
+void enable_content_editing_operation::validate() const { chain::validate_account_name(account); }
 
-} } // scorum::witness
+} // namespace witness
+} // namespace scorum
 
-DEFINE_OPERATION_TYPE( scorum::witness::witness_plugin_operation )
+DEFINE_OPERATION_TYPE(scorum::witness::witness_plugin_operation)
