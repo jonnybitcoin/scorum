@@ -42,13 +42,11 @@ RUN cd /usr/local/src/scorum && \
     git submodule update --init --recursive && \
     mkdir build && \
     cd build && \
-    cmake \
-        -DCMAKE_BUILD_TYPE=Release \
+    cmake -DCMAKE_BUILD_TYPE=Release \
         -DBUILD_SCORUM_TESTNET=ON \
         -DLOW_MEMORY_NODE=OFF \
         -DCLEAR_VOTES=ON \
-        -DSKIP_BY_TX_ID=ON \
-        .. && \
+        -DSKIP_BY_TX_ID=ON .. && \
     make -j$(nproc) wallet_tests chain_test test_fixed_string && \
     ./tests/chain_test && \
     ./tests/wallet_tests && \
