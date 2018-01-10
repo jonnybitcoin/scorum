@@ -4,8 +4,7 @@ FROM phusion/baseimage:0.9.19
 
 ENV LANG=en_US.UTF-8
 
-RUN \
-    apt-get update && \
+RUN apt-get update && \
     apt-get install -y \
         autoconf \
         automake \
@@ -32,18 +31,14 @@ RUN \
         awscli \
         jq \
         wget \
-        gdb \
-    && \
+        gdb &&\
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
     pip3 install gcovr
 
 ADD . /usr/local/src/scorum
 
-RUN sleep 100
-
-RUN \
-    cd /usr/local/src/scorum && \
+RUN cd /usr/local/src/scorum && \
     git submodule update --init --recursive && \
     mkdir build && \
     cd build && \
@@ -64,8 +59,7 @@ RUN \
     programs/build_helpers/get_config_check.sh && \
     rm -rf /usr/local/src/scorum/build
 
-RUN \
-    cd /usr/local/src/scorum && \
+RUN cd /usr/local/src/scorum && \
     git submodule update --init --recursive && \
     mkdir build && \
     cd build && \
@@ -85,8 +79,7 @@ RUN \
     cd /usr/local/src/scorum && \
     rm -rf /usr/local/src/scorum/build
 
-RUN \
-    cd /usr/local/src/scorum && \
+RUN cd /usr/local/src/scorum && \
     git submodule update --init --recursive && \
     mkdir build && \
     cd build && \
@@ -125,8 +118,7 @@ RUN \
     make install && \
     rm -rf /usr/local/src/scorum
 
-RUN \
-    apt-get remove -y \
+RUN apt-get remove -y \
         automake \
         autotools-dev \
         bsdmainutils \
@@ -162,8 +154,7 @@ RUN \
         mpi-default-dev \
         python-dev \
         python2.7-dev \
-        python3-dev \
-    && \
+        python3-dev && \
     apt-get autoremove -y && \
     rm -rf \
         /var/lib/apt/lists/* \
