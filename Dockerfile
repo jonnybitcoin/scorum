@@ -40,6 +40,8 @@ RUN \
 
 ADD . /usr/local/src/scorum
 
+RUN sleep 100
+
 RUN \
     cd /usr/local/src/scorum && \
     git submodule update --init --recursive && \
