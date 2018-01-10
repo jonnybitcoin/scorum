@@ -42,7 +42,6 @@ ADD . /usr/local/src/scorum
 
 RUN \
     cd /usr/local/src/scorum && \
-    git submodule update --init --recursive && \
     mkdir build && \
     cd build && \
     cmake \
@@ -64,7 +63,6 @@ RUN \
 
 RUN \
     cd /usr/local/src/scorum && \
-    git submodule update --init --recursive && \
     mkdir build && \
     cd build && \
     cmake \
@@ -85,7 +83,6 @@ RUN \
 
 RUN \
     cd /usr/local/src/scorum && \
-    git submodule update --init --recursive && \
     mkdir build && \
     cd build && \
     cmake \
